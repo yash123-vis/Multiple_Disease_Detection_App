@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    android:id="@+id/rl_main"
+    tools:context=".calculator.BMR.BMRActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/hpd_logo"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/ll_bmr"
+        android:padding="30dp"/>
+
+    <ImageView
+        android:id="@+id/rect1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gray_rectangle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <ImageView
+        android:id="@+id/rect2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/rect1"
+        android:layout_toEndOf="@id/rect1"
+        android:src="@drawable/gray_rectangle" />
+
+    <ImageView
+        android:id="@+id/rect3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gray_rectangle"
+        android:layout_below="@id/rect2"
+        android:layout_toEndOf="@id/rect2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_bmr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:id="@+id/llbodyfat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_genderunit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:gravity="fill"
+                    android:paddingStart="15dp"
+                    android:text="@string/Male"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/et_age"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/Enter_Age"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black4"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/Male"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/et_height"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/Enter_Height"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black4"
+                    android:textSize="14sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tv_heightunit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/cm"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/et_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/Enter_Weight"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black4"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_weightunit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/lbs"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tv_search_bmr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/b_gred_ripple"
+            android:fontFamily="@font/productsans_bold"
+            android:gravity="center"
+            android:text="@string/Calculate_BMR"
+            android:letterSpacing="0.04"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

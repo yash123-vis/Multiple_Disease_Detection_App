@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    android:scrollbars="none"
+    tools:context=".Medi_Consult.SymptomsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/productsans_bold"
+            android:text="@string/enter_your_symptoms"
+            android:textAlignment="textStart"
+            android:layout_margin="20dp"
+            android:textColor="@color/red"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/syp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <Spinner
+            android:id="@+id/syp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/syp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/syp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/syp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp" />
+
+
+        <Spinner
+            android:id="@+id/syp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/syp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/white"
+            android:elevation="8dp"
+            android:entries="@array/symptom_list"
+            android:popupBackground="@drawable/button_back"
+            android:soundEffectsEnabled="true"
+            android:spinnerMode="dropdown"
+            android:theme="@style/spinnerstyle"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login_ripple"
+            android:elevation="10dp"
+            android:fontFamily="@font/productsans_regular"
+            android:letterSpacing="0.03"
+            android:text="@string/know_your_disease"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

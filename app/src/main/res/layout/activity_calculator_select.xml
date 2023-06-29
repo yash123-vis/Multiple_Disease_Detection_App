@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    android:scrollbars="none"
+    tools:context=".CalculatorSelectActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/health"
+                android:fontFamily="@font/productsans_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calculator"
+                android:fontFamily="@font/productsans_bold"
+                android:textSize="18sp"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@id/toolBar"
+        android:layout_above="@id/bottom_navigation"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:id="@+id/skin_and_covid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:rowCount="2"
+                    android:columnCount="2"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/basal_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/white_background"
+                        android:layout_marginStart="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/skin_cancer_text"
+                            android:text="@string/basal_metabolic_rate"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-20dp"
+                            android:src="@drawable/metabolism"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/bmi_rl"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/yellow_background"
+                        android:layout_marginStart="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/covid_cancer_text"
+                            android:text="@string/body_mass_index"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="16dp"
+                            android:src="@drawable/bmii"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/bp_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/blue_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lung_cancer_text"
+                            android:text="@string/blood_pressure"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-30dp"
+                            android:src="@drawable/blood_pressure"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/bv_rl"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/white_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/blood_volume_text"
+                            android:text="@string/blood_volume"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-35dp"
+                            android:src="@drawable/blood"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/bf_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/yellow_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/body_fat_text"
+                            android:text="@string/body_fat"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-30dp"
+                            android:src="@drawable/body_fat"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/cb_rl"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/blue_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cb_text"
+                            android:text="@string/calorie_burn"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-35dp"
+                            android:src="@drawable/calories_burn"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ci_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/blue_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ci_text"
+                            android:text="@string/calorie_intake"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-30dp"
+                            android:src="@drawable/calories_intake"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/wt_rl"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/white_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/et_text"
+                            android:text="@string/water_intake"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-35dp"
+                            android:src="@drawable/water_intake"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ch_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/yellow_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ch_text"
+                            android:text="@string/cholesterol_ratio"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-30dp"
+                            android:src="@drawable/cholesterol"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ht_rl"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:background="@drawable/blue_background"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ht_text"
+                            android:text="@string/heart_rate"
+                            android:textSize="19sp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="-35dp"
+                            android:src="@drawable/heart_rate"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                </GridLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background"
+        app:itemBackground="@android:color/transparent"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        android:theme="@style/NavDrawerFontStyle"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>

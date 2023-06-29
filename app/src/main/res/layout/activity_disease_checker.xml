@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".Medi_Consult.DiseaseChecker">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fill_form"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/fill_form" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/productsans_bold"
+            android:letterSpacing="0.04"
+            android:text="@string/disease_checker"
+            android:textColor="@color/black2"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/fill_up_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fill_form"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/productsans_regular"
+            android:letterSpacing="0.03"
+            android:text="@string/please_fill_the_form_before_check_the_disease"
+            android:textColor="@color/black4"
+            android:textSize="17sp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/name_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fill_up_text"
+            android:layout_margin="20dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/nametext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_rectengle"
+                android:ems="10"
+                android:fontFamily="@font/productsans_regular"
+                android:hint="@string/enter_name"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.02"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black4"
+                android:textSize="21sp"
+                tools:ignore="Autofill,HardcodedText" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/age_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_card"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="12dp">
+
+            <EditText
+                android:id="@+id/agetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_age"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@drawable/black_rectengle"
+                android:fontFamily="@font/productsans_regular"
+                android:letterSpacing="0.02"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black4"
+                android:textSize="22sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/age_card">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black2"
+                android:checked="false"
+                android:text="@string/Male"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="21sp"
+                android:fontFamily="@font/productsans_regular"
+                android:letterSpacing="0.03"
+                android:layout_marginStart="20dp"/>
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black2"
+                android:checked="false"
+                android:text="@string/Female"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="21sp"
+                android:fontFamily="@font/productsans_regular"
+                android:letterSpacing="0.03"
+                android:layout_marginStart="10dp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_below="@id/rg1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/purple_ripple"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:elevation="8dp"
+            android:src="@drawable/next"
+            android:padding="22dp"
+            android:layout_marginBottom="60dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

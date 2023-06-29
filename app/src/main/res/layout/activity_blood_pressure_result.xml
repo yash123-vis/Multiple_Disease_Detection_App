@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_rectengle"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".calculator.BP.BloodPressure_Result">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/iv_imoji"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/imoji_default" />
+
+    <TextView
+        android:id="@+id/tv_systolic_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_imoji"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/productsans_regular"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_diastolic_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_systolic_ans"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/productsans_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_bloodpressure_chart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_diastolic_ans"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_ripple"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/View_Chart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/productsans_bold"/>
+
+
+</RelativeLayout>

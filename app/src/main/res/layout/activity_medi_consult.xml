@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    android:scrollbars="none"
+    tools:context=".Medi_Consult.MediConsult">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medi"
+                android:fontFamily="@font/productsans_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consult"
+                android:fontFamily="@font/productsans_bold"
+                android:textSize="18sp"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@id/toolBar"
+        android:layout_above="@id/bottom_navigation"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/disease_checker"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardElevation="16dp"
+                    app:cardCornerRadius="15dp"
+                    android:outlineAmbientShadowColor="@color/purple"
+                    android:outlineSpotShadowColor="@color/purple"
+                    app:cardBackgroundColor="@color/purple"
+                    tools:targetApi="p">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/lines"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/white_circle"
+                            android:src="@drawable/question"
+                            android:padding="16dp"/>
+
+                        <TextView
+                            android:id="@+id/disease_checker_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/disease_checker_tagline"
+                            android:textSize="16sp"
+                            android:letterSpacing="0.03"
+                            android:fontFamily="@font/productsans_regular"
+                            android:textColor="@color/white"
+                            android:textAlignment="textEnd"
+                            android:layout_marginStart="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginBottom="26dp"
+                            android:layout_marginEnd="20dp"/>
+
+                        <TextView
+                            android:id="@+id/disease_checker_text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/disease_checker"
+                            android:textSize="20sp"
+                            android:letterSpacing="0.03"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="textEnd"
+                            android:layout_above="@id/disease_checker_text"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginBottom="8dp"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nearby_hospitals"
+                    android:layout_below="@id/disease_checker"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    app:cardElevation="16dp"
+                    app:cardCornerRadius="15dp"
+                    android:outlineAmbientShadowColor="@color/body_color"
+                    android:outlineSpotShadowColor="@color/body_color"
+                    app:cardBackgroundColor="@color/body_color"
+                    tools:targetApi="p">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/lines1"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/white_circle"
+                            android:src="@drawable/hospital"
+                            android:padding="16dp"/>
+
+                        <TextView
+                            android:id="@+id/nearbyHospitals"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nearby_location_tagline"
+                            android:textSize="16sp"
+                            android:letterSpacing="0.03"
+                            android:fontFamily="@font/productsans_regular"
+                            android:textColor="@color/black2"
+                            android:textAlignment="textEnd"
+                            android:layout_marginStart="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginBottom="26dp"
+                            android:layout_marginEnd="20dp"/>
+
+                        <TextView
+                            android:id="@+id/nearby_hospitals_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nearbyHospitals"
+                            android:textSize="20sp"
+                            android:letterSpacing="0.03"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/black2"
+                            android:textAlignment="textEnd"
+                            android:layout_above="@id/nearbyHospitals"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="8dp"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sos"
+                    android:layout_below="@id/nearby_hospitals"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    app:cardElevation="16dp"
+                    app:cardCornerRadius="15dp"
+                    android:outlineAmbientShadowColor="@color/red"
+                    android:outlineSpotShadowColor="@color/red"
+                    app:cardBackgroundColor="@color/red"
+                    tools:targetApi="p">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/lines2"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/white_circle"
+                            android:src="@drawable/sos"
+                            android:padding="16dp"/>
+
+                        <TextView
+                            android:id="@+id/sos_tag"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sos_tagline"
+                            android:textSize="16sp"
+                            android:letterSpacing="0.03"
+                            android:fontFamily="@font/productsans_regular"
+                            android:textColor="@color/white"
+                            android:textAlignment="textEnd"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginBottom="26dp"
+                            android:layout_marginEnd="20dp"/>
+
+                        <TextView
+                            android:id="@+id/sos_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sos_textline"
+                            android:textSize="20sp"
+                            android:letterSpacing="0.03"
+                            android:fontFamily="@font/productsans_bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="textEnd"
+                            android:layout_marginStart="20dp"
+                            android:layout_above="@id/sos_tag"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="8dp"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background"
+        app:itemBackground="@android:color/transparent"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        android:theme="@style/NavDrawerFontStyle"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>

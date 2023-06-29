@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    tools:context=".TreatmentActivity"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/link1"
+            android:textColor="@color/red"
+            android:textAlignment="textEnd"
+            android:fontFamily="@font/productsans_regular"
+            android:textStyle="italic"
+            android:layout_marginBottom="24dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/prevention_bt"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="12dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention4"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention5"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention6"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention7"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="16dp"
+            tools:targetApi="o" />
+
+
+    </LinearLayout>
+
+</ScrollView>

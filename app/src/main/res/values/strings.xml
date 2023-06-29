@@ -1,0 +1,457 @@
+<resources>
+    <string name="app_name">Healthcare Management</string>
+    <string name="brain_text">Please select brain image from gallery\notherwise it will show wrong prediction.</string>
+    <string name="select_image">Select Image</string>
+    <string name="predict_text">Prediction</string>
+    <string name="prediction_hint">Brain tumor prediction result will show here.</string>
+    <string name="source1">https://www.ucsfhealth.org/</string>
+    <string name="brain1">Treatment for brain tumors depends on a number of factors including the type, location and size of the tumor as well as the patient\'s age and general health. Treatment methods and schedules differ for children and adults.</string>
+    <string name="brain2">Brain tumors are treated with surgery, radiation therapy and chemotherapy. Depending on your needs, several methods may be used. Before treatment begins, most patients are given steroids, drugs that relieve swelling or edema. Your may receive anticonvulsant medicine to prevent or control seizures.</string>
+    <string name="surgery1">Surgery is the usual treatment for most brain tumors. To remove a brain tumor, a neurosurgeon makes an opening in the skull. This operation is called a craniotomy. Whenever possible, the surgeon attempts to remove the entire tumor. If the tumor cannot be completely removed without damaging vital brain tissue, your doctor may remove as much of the tumor as possible. Partial removal helps to relieve symptoms by reducing pressure on the brain and reduces the amount of tumor to be treated by radiation therapy or chemotherapy.</string>
+    <string name="surgery2">Some tumors cannot be removed. In such cases, your doctor may do only a biopsy. A small piece of the tumor is removed so that a pathologist can examine it under a microscope to determine the type of cells it contains. This helps your doctor decide which treatment to use.</string>
+    <string name="surgery3">Other advanced techniques during surgery include brain mapping to find functional pathways near tumors, endoscopy to perform biopsies and open spinal fluid pathways through a small scope and advanced frameless stereotaxic computer assisted tumor resections. Intraoperative MRI also is available to help maximize tumor removal.</string>
+    <string name="brain_surgery_image_source">radiologykey.com</string>
+    <string name="radiation1">Radiation therapy, also called radiotherapy, is the use of high-powered rays to damage cancer cells and stop them from growing. It is often used to destroy tumor tissue that cannot be removed with surgery or to kill cancer cells that may remain after surgery. Radiation therapy also is used when surgery is not possible.</string>
+    <string name="radiation2">Radiation therapy may be given in two ways.</string>
+    <string name="radiation3"><b>External radiation</b> comes from a large machine. Generally, external radiation treatments are given five days a week for several weeks. The treatment schedule depends on the type and size of the tumor and your age.</string>
+    <string name="radiation4"><b>The Gamma Knife</b>, or stereotactic radiosurgery, is another way to treat brain tumors. The Gamma Knife isn\'t actually a knife, but a radiation therapy technique that delivers a single, finely focused, high dose of radiation precisely to its target. Treatment is given in just one session. High-energy rays are aimed at the tumor from many angles. In this way, a high dose of radiation reaches the tumor without damaging other brain tissue.</string>
+    <string name="radiation_image_source">mayoclinic.org</string>
+    <string name="chemotherapy1">Chemotherapy is the use of drugs to kill cancer cells. The doctor may use just one drug or a combination, usually giving the drugs orally or by injection into a blood vessel or muscle. Intrathecal chemotherapy involves injecting the drugs into the cerebrospinal fluid.</string>
+    <string name="chemotherapy2">Chemotherapy is usually given in cycles. A treatment period is followed by a recovery period, then another treatment period and so on. Patients often don\'t need to stay in the hospital for treatment and most drugs can be given in the doctor\'s office or clinic. However, depending on the drugs used, the way they are given and the patient\'s general health, a short hospital stay may be necessary.</string>
+    <string name="chemotherapy3">Advances in chemotherapy include direct placement into the tumor cavity using a new technique called convection enhanced delivery.</string>
+
+    <string name="surgery">Surgery</string>
+    <string name="radiation">Radiation therapy</string>
+    <string name="chemotherapy">Chemotherapy</string>
+    <string name="unknown">unknown</string>
+
+    <string name="prevention1">The primary tool to prevent brain tumours is by controlling your lifestyle. This means eating healthy, exercising, avoiding known carcinogens in your environment, and reducing stress.</string>
+    <string name="prevention2"><b>1. Sleep:</b> Sleep is a friend for brain health. An adequate amount of rest with eyes shut keeps your brain health.</string>
+    <string name="prevention3"><b>2. Frankincense oil:</b> Along with yoga, meditation, and breathing exercises to reduce stress, inhaling frankincense oil can help alleviate inflammation in the brain.</string>
+    <string name="prevention4"><b>3. Anti cancer diet:</b> Consuming a diet rich in cancer-fighting nutrients like antioxidants is critical in preventing brain tumors.</string>
+    <string name="prevention5"><b>4. Ketogenic diet:</b> A ketogenic diet is a high protein diet. It reduces oxidative stress and inflammation in the brain which is associated with brain tumours. It also shuts down the nutrient supply to tumors.</string>
+    <string name="prevention6"><b>5. Calorie restriction:</b> Dietary restriction, especially fasting has anti-carcinogenic properties just as the ketogenic diet.</string>
+    <string name="prevention7"><b>6. Limit exposure to mobile phones:</b> Cell phones use increases risk for brain tumours. So restriction prevents these tumours. If you wish to discuss about any specific problem, you can consult a Neurologist.</string>
+    <string name="link1"><u>Source: https://www.lybrate.com/</u></string>
+    <string name="link2"><u>Source: https://www.ucsfhealth.org/</u></string>
+    <string name="refresh"><u>Refresh</u></string>
+    <string name="covid_hint">COVID-19 result will show here</string>
+    <string name="buttonTakePhoto">Take Image</string>
+    <string name="buttonSelectPhoto">Select Imae</string>
+    <string name="descriptionImage">skin image</string>
+    <string name="buttonDiagnose">Predict</string>
+    <string name="defaultImage">Default Image set now..</string>
+    <string name="brain_tumor_detection">Brain Tumor \nDetection</string>
+    <string name="covid_text">Please select proper scan image from gallery otherwise it will show wrong prediction.</string>
+    <string name="skin_text">Please select proper skin affected image from gallery otherwise it will show wrong prediction.</string>
+    <string name="skin_hint">Skin Cancer result will show here..</string>
+    <string name="actinic_keratosis">Sun safety is necessary to help prevent development and recurrence of actinic keratosis patches and spots.\nTake these steps to protect your skin from the sun: \n
+
+        - <b>Limit your time in the sun.</b> Especially avoid time in the sun between 10 a.m. and 2 p.m. And avoid staying in the sun so long that you get a sunburn or a suntan.
+        - <b>Use sunscreen.</b> Before spending time outdoors, even on cloud days, apply a broad-spectrum water-resistant sunscreen with a sun protection factor (SPF) of at least 30, as the American Academy of Dermatology recommends.\n\nUse sunscreen on all exposed skin, and use lip balm with sunscreen on your lips. Apply sunscreen at least 15 minutes before going outside and reapply it every two hours — or more often if you\'re swimming or perspiring.\n\nSunscreen is not recommended for babies under 6 months. Rather, keep them out of the sun if possible, or protect them with shade, hats, and clothing that covers the arms and legs.
+        - <b>Cover up.</b> For extra protection from the sun, wear tightly woven clothing that covers your arms and legs. Also wear a broad-brimmed hat, which provides more protection than does a baseball cap or golf visor.
+        - <b>Avoid tanning beds.</b> The UV exposure from a tanning bed can cause just as much skin damage as a tan acquired from the sun.
+        - <b>Check your skin regularly and report changes to your doctor.</b> Examine your skin regularly, looking for the development of new skin growths or changes in existing moles, freckles, bumps and birthmarks. With the help of mirrors, check your face, neck, ears and scalp. Examine the tops and undersides of your arms and hands.</string>
+    <string name="basal_cell">To reduce your risk of basal cell carcinoma you can:\n\n
+        - <b>Avoid the sun during the middle of the day.</b> In many places, the sun\'s rays are strongest between about 10 a.m. and 4 p.m. Schedule outdoor activities for other times of the day, even during winter or when the sky is cloudy. \n\n<b>Wear sunscreen year-round.</b> Use a broad-spectrum sunscreen with an SPF of at least 30, even on cloudy days. Apply sunscreen generously, and reapply every two hours — or more often if you\'re swimming or perspiring. \n\n<b>Wear protective clothing.</b> Cover your skin with dark, tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than does a baseball cap or visor.  \nSome companies also sell protective clothing. A dermatologist can recommend an appropriate brand. Don\'t forget sunglasses. Look for those that block both types of UV radiation — UVA and UVB rays.  \n\n<b>Avoid tanning beds.</b> Tanning beds emit UV rays and can increase your risk of skin cancer. \n\n<b>Check your skin regularly and report changes to your doctor.</b> Examine your skin often for new skin growths or changes in existing moles, freckles, bumps and birthmarks. With the help of mirrors, check your face, neck, ears and scalp.  \nExamine your chest and trunk and the tops and undersides of your arms and hands. Examine both the front and the back of your legs and your feet, including the soles and the spaces between your toes. Also check your genital area and between your buttocks.</string>
+    <string name="derma_text">A doctor may wish to rule out conditions that can look similar to dermatofibromas. Some of the possible diagnoses for growths that may, in rare cases, resembleTrusted Source dermatofibromas are:  \n -hypertrophic scarring or keloid \n -malignant melanoma \n -squamous cell carcinoma \n -basal cell carcinoma \n -Spitz nevus \n -blue nevus \n\nA rare skin cancer called dermatofibrosarcoma protuberans also initially resemblesTrusted Source a dermatofibroma.  \nDue to this, a qualified doctor should always make the diagnosis.</string>
+    <string name="melanoma_text">You can reduce your risk of melanoma and other types of skin cancer if you:  \n<b>Avoid the sun during the middle of the day.</b> For many people in North America, the sun\'s rays are strongest between about 10 a.m. and 4 p.m. Schedule outdoor activities for other times of the day, even in winter or when the sky is cloudy.  You absorb UV radiation year-round, and clouds offer little protection from damaging rays. Avoiding the sun at its strongest helps you avoid the sunburns and suntans that cause skin damage and increase your risk of developing skin cancer. Sun exposure accumulated over time also may cause skin cancer.  \n\n<b>Wear sunscreen year-round.</b> Use a broad-spectrum sunscreen with an SPF of at least 30, even on cloudy days. Apply sunscreen generously, and reapply every two hours — or more often if you\'re swimming or perspiring. \n\n<b>Wear protective clothing.</b> Cover your skin with dark, tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than does a baseball cap or visor.  Some companies also sell protective clothing. A dermatologist can recommend an appropriate brand. Don\'t forget sunglasses. Look for those that block both types of UV radiation — UVA and UVB rays.</string>
+    <string name="squ_cell">To reduce your risk of squamous cell carcinom you can:\n\n
+        - <b>Avoid the sun during the middle of the day.</b> In many places, the sun\'s rays are strongest between about 10 a.m. and 4 p.m. Schedule outdoor activities for other times of the day, even during winter or when the sky is cloudy. \n\n<b>Wear sunscreen year-round.</b> Use a broad-spectrum sunscreen with an SPF of at least 30, even on cloudy days. Apply sunscreen generously, and reapply every two hours — or more often if you\'re swimming or perspiring. \n\n<b>Wear protective clothing.</b> Cover your skin with dark, tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than does a baseball cap or visor.  \nSome companies also sell protective clothing. A dermatologist can recommend an appropriate brand. Don\'t forget sunglasses. Look for those that block both types of UV radiation — UVA and UVB rays.  \n\n<b>Avoid tanning beds.</b> Tanning beds emit UV rays and can increase your risk of skin cancer. \n\n<b>Check your skin regularly and report changes to your doctor.</b> Examine your skin often for new skin growths or changes in existing moles, freckles, bumps and birthmarks. With the help of mirrors, check your face, neck, ears and scalp.  \nExamine your chest and trunk and the tops and undersides of your arms and hands. Examine both the front and the back of your legs and your feet, including the soles and the spaces between your toes. Also check your genital area and between your buttocks.</string>
+    <string name="vas_cell">To reduce your risk of vascular lesion you can:\n\n
+        - <b>Avoid the sun during the middle of the day.</b> In many places, the sun\'s rays are strongest between about 10 a.m. and 4 p.m. Schedule outdoor activities for other times of the day, even during winter or when the sky is cloudy. \n\n<b>Wear sunscreen year-round.</b> Use a broad-spectrum sunscreen with an SPF of at least 30, even on cloudy days. Apply sunscreen generously, and reapply every two hours — or more often if you\'re swimming or perspiring. \n\n<b>Wear protective clothing.</b> Cover your skin with dark, tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than does a baseball cap or visor.  \nSome companies also sell protective clothing. A dermatologist can recommend an appropriate brand. Don\'t forget sunglasses. Look for those that block both types of UV radiation — UVA and UVB rays.  \n\n<b>Avoid tanning beds.</b> Tanning beds emit UV rays and can increase your risk of skin cancer. \n\n<b>Check your skin regularly and report changes to your doctor.</b> Examine your skin often for new skin growths or changes in existing moles, freckles, bumps and birthmarks. With the help of mirrors, check your face, neck, ears and scalp.  \nExamine your chest and trunk and the tops and undersides of your arms and hands. Examine both the front and the back of your legs and your feet, including the soles and the spaces between your toes. Also check your genital area and between your buttocks.</string>
+    <string name="treatment_mild">Treatment for patients with mild/asymptomatic disease in home isolation</string>
+    <string name="treat_1">Patients must be in communication with a treating Medical Of cer and promptly report in case of any deterioration.</string>
+    <string name="treat_2">"The patient must continue the medications for other co-morbidities/ illness after consulting the treating Medical Officer.</string>
+    <string name="treat_3">Patient may utilize the tele-consultation platform made available by the district/state administration.</string>
+    <string name="treat_4">Patients to follow symptomatic management for fever, running nose and cough, as warranted.</string>
+    <string name="treat_5">Patients may perform warm water gargles or take steam inhalation thrice a day.</string>
+    <string name="treat_6">If fever is not controlled with a maximum dose of Tab. Paracetamol 650 mg four times a day, consult the treating doctor.</string>
+    <string name="treat_7">Do not rush for self-medication, blood investigation or radiological imaging like chest X ray or chest CT scan without consultation of your treating Medical Officers.</string>
+    <string name="treat_8">Steroids are not indicated in mild disease and shall not be self-administered. Overuse and inappropriate use of steroids may lead to additional complications.</string>
+    <string name="treat_9">Treatment for every patient needs to be monitored individually as per the specific condition of the patient concerned and hence generic sharing of prescriptions shall be avoided.</string>
+    <string name="treat_10">In case of falling oxygen saturation or shortness of breath, the person may require hospital admission and shall seek immediate consultation of their treating Medical Officer/surveillance team /Control room</string>
+    <string name="source_covid_treatment"><u>Source: https://www.mohfw.gov.in/</u></string>
+    <string name="when_to_seek_medical_attention">When to seek medical attention</string>
+    <string name="seek_t">Patient/ Care giver will keep monitoring their health. Immediate medical attention must be sought if serious signs or symptoms develop. These could include:</string>
+    <string name="seek_1"><![CDATA[i. Unresolved High-grade fever (more than 100° F for more than 3 days). \nii. Difficulty in breathing. \niii. Dip in oxygen saturation (SpO2 ≤ 93% on room air at least 3 readings  within 1 hour) or respiratory rate > 24/min. \niv. Persistent pain/pressure in the chest. \nv. Mental confusion or inability to arouse. \nvi. Severe fatigue and myalgia.]]></string>
+    <string name="asym_cases">Asymptomatic cases/ mild cases of COVID-19</string>
+    <string name="asym_1">The asymptomatic cases are laboratory confirmed cases who are not experiencing any symptoms and have oxygen saturation at room air of more than 93%. \n\nClinically assigned mild cases are patients with upper respiratory tract symptoms with or without fever, without shortness of breath and having oxygen saturation at room air of more than 93%</string>
+    <string name="home_isolaton">Patients eligible for home isolation</string>
+    <string name="prev_1">The patient should be clinically assigned as mild/ asymptomatic case by the treating Medical Officer. Further a designated control room contact number at the district /sub district level shall be provided to the family to get suitable guidance for undertaking testing, clinical management related guidance, assignment of a hospital bed, if warranted.</string>
+    <string name="prev_2">Such cases should have the requisite facility at their residence for <b>self-isolation</b> and for <b>quarantining the family contacts.</b></string>
+    <string name="prev_3">A caregiver <b>(ideally someone who has completed his COVID-19 vaccination schedule)</b> should be available to provide care on 24 x7 basis. <b>A communication link between the caregiver and a Medical Officer is a prerequisite for the entire duration of home isolation.</b></string>
+    <string name="prev_4">Elderly patients aged more than 60 years and those with co-morbid conditions such as Hypertension, Diabetes, Heart disease, Chronic lung/liver/ kidney disease, Cerebro-vascular disease etc shall only be allowed home isolation after proper evaluation by the treating medical officer</string>
+    <string name="prev_5">Patients suffering from immune compromised status (HIV, Transplant recipients, Cancer therapy etc.) are not recommended for home isolation and <b>shall only be allowed home isolation after proper evaluation by the treating Medical Officer.</b></string>
+    <string name="prev_6">While a patient is allowed home isolation, all other members in the family including other contacts shall follow the <b>home quarantine guidelines available at:</b></string>
+    <string name="link_guidelines"><a href="https://www.mohfw.gov.in/pdf/Guidelinesforhomequarantine.pdf">https://www.mohfw.gov.in/pdf/Guidelinesforhomequarantine.pdf</a></string>
+    <string name="instruction_patient">Instructions for the patient</string>
+    <string name="prev_11">Patient must isolate himself from other household members, stay in the identified room and away from other people at home, especially elderly and those with co-morbid conditions like hypertension, cardiovascular disease, renal disease etc.</string>
+    <string name="prev_21">Patient should at all times use triple layer medical mask. They should discard mask after 8 hours of use or earlier if the mask becomes wet or is visibly soiled. In the event of Caregiver entering the room, both Caregiver and patient may preferably consider using N-95 mask.</string>
+    <string name="prev_31">Patient must take rest and drink lot of fluids to maintain adequate hydration.</string>
+    <string name="prev_41">Follow respiratory etiquettes at all times.</string>
+    <string name="prev_51">Undertake frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer.</string>
+    <string name="prev_61"><![CDATA[Need to ensure cleaning of frequently touched surfaces in the room (tabletops, doorknobs, handles, etc.) with soap/detergent & water. The cleaning can be undertaken either by the patient or the caregiver duly following required precautions such as use of masks and gloves.]]></string>
+    <string name="prev_71">Self-monitoring of blood oxygen saturation with a pulse oximeter for the patient is advised.</string>
+    <string name="prev_81">The patient shall self-monitor his/her health with daily temperature monitoring and report promptly if any deterioration of symptom is noticed. The status shall be shared with the treating Medical Officer as well as surveillance teams/Control room.</string>
+    <string name="health_calculator">Health Calculator</string>
+    <string name="lung_hint">Lung Cancer result will show here..</string>
+    <string name="Enter_Age">Enter Age</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Enter_Height">Enter Height</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+    <string name="lbs">lbs</string>
+    <string name="kg">kg</string>
+    <string name="Enter_Weight">Enter Weight</string>
+    <string name="Calculate_BMR">Calculate BMR</string>
+    <string name="Your_BMR_is">Your Basal Metabolic Rate is</string>
+    <string name="Your_BMR_value_is">Your Daily Calorie intake is :</string>
+    <string name="Your_Body_Fat_is">Your Body Fat is</string>
+    <string name="Your_Childs_Predicted_Height">Your Child\'s Predicted Height is :</string>
+    <string name="Your_RMR_is">Your Resting Metabolic Rate is</string>
+    <string name="cal_per_day">calories/day</string>
+    <string name="cal_title">Calculate Body Adiposity Index</string>
+    <string name="bmr_Calculator">BMR Calculating</string>
+    <string name="rmr_Calculator">RMR Calculating</string>
+    <string name="Calculate_RMR">Calculate Resting Metabolic Rate</string>
+    <string name="Calculate_BMI">Calculate BMI</string>
+    <string name="View_Chart">View Chart</string>
+    <string name="Overweight">Overweight</string>
+    <string name="Recommended_BMI_Value">Recommended BMI Value</string>
+    <string name="Obese">Obese</string>
+    <string name="Extremely_Obese">Extremely Obese</string>
+    <string name="Under_Weight">Inder weight</string>
+    <string name="Your_BMI_is">Your BMI is</string>
+    <string name="ok">OK</string>
+    <string name="Age_Group_Under17">Age Group : Under 17</string>
+    <string name="Age_Group_Under35">Age Group : Under 35</string>
+    <string name="Age_Group_Under35over">Age Group : 35 and over</string>
+    <string name="Recommended_BMI">Recommended BMI :</string>
+    <string name="Overweight_BMI">Overweight BMI :</string>
+    <string name="Obese_BMI">Obese BMI :</string>
+    <string name="Extremely_Obese_BMI">Extremely Obese BMI :</string>
+    <string name="Enter_diastolic_Pressure">Enter diastolic Pressure(Upper)mmHg</string>
+    <string name="Enter_Systolic_Pressure">Enter Systolic Pressure(Upper)mmHg</string>
+    <string name="Calculate_Blood_Pressure">Calculate Blood Pressure</string>
+    <string name="Enter_systolic_value">Enter systolic value</string>
+    <string name="Enter_diastolic_value">Enter diastolic value</string>
+    <string name="Normal_Blood_Pressure">Normal Blood Pressure</string>
+    <string name="Prehypertension">Prehypertension</string>
+    <string name="High_Blood_Pressure_Stage_1">High Blood Pressure (Hypertension) Stage 1</string>
+    <string name="High_Blood_Pressure_Stage_2">High Blood Pressure (Hypertension) Stage 2</string>
+    <string name="Hypertensive_Crisis_Emergency_care_needed">Hypertensive Crisis. Emergency care needed</string>
+    <string name="upper_result">Upper Result :</string>
+    <string name="lower_result">Lower Result :</string>
+    <string name="Systolic_Blood_Pressure">Systolic Blood Pressure (Upper)</string>
+    <string name="Blood_Pressure_Category">Blood Pressure Category</string>
+    <string name="Systolic_mmHg">Systolic mmHg</string>
+    <string name="Normal">Normal</string>
+    <string name="Hypertension_Stage1">Hypertension Stage 1</string>
+    <string name="Hypertension_Stage2">Hypertension Stage 2</string>
+    <string name="Hypertensive_Crisis">Hypertensive Crisis</string>
+    <string name="Diastolic_Blood_Pressure">Diastolic Blood Pressure</string>
+    <string name="Diastolic_mmHg">Diastolic mmHg</string>
+    <string name="Calculate_Blood_volume">Calculate Blood Volume</string>
+    <string name="Your_bloodvolume_is">Your Blood Volume is :</string>
+    <string name="liter">liter</string>
+    <string name="Calculate_Body_Fat">Calculate Body Fat</string>
+    <string name="Very_Low">Very Low</string>
+    <string name="Recommended_Bodyfat">"Recommended Bodyfat is "</string>
+    <string name="Low">Low</string>
+    <string name="Average">Average</string>
+    <string name="High">High</string>
+    <string name="Very_High">Very HIgh</string>
+    <string name="Body_Fat_Percentage_Comparison_Table">Body Fat Percentage Comparison Table</string>
+    <string name="Fat_Level">Fat Level</string>
+    <string name="Men_fat">Men (%)</string>
+    <string name="Women_fat">Women (%)</string>
+    <string name="Body_Fat_Percentage_for_Men_and_Women">Body Fat Percentage for Men and Women</string>
+    <string name="Classification">Classification</string>
+    <string name="Essential_Fat">Essential Fat</string>
+    <string name="Athletes">Athletes</string>
+    <string name="Fitness">Fitness</string>
+    <string name="Acceptable">Acceptable</string>
+    <string name="Enter_distance_you_run">Enter distance you run</string>
+    <string name="miles">miles</string>
+    <string name="Walking">Walking</string>
+    <string name="Calculate_Your_Total_Calorie_Burn">Calculate your total calorie burn</string>
+    <string name="km">km</string>
+    <string name="Running">Running</string>
+    <string name="Enter_Distance_You_Run">Enter Distance You Run</string>
+    <string name="You_better_start_working">You better start working</string>
+    <string name="Nice_run_but_you_can_do_better">Nice run, but you can do better</string>
+    <string name="Very_good_Push_above_next_time">Very good!! push above next time</string>
+    <string name="Great_Your_a_runner_keep_it_up">Great!! You are a runner..... keep it up.</string>
+    <string name="Bill_Rogers_move_over">Bill Rogers move over</string>
+    <string name="Your_my_hero_Have_a_jelly_doughnut">You\'re my hero!! Have a doughnut.</string>
+    <string name="Calories_burned">Calories burned</string>
+    <string name="Burn_Calories">Burn Calories</string>
+    <string name="Exercise">Exercise</string>
+    <string name="Approximate_Calories_Burned">Approximate Calories Burned</string>
+    <string name="_100_calories_burned_per_mile">100 calories burned per mile</string>
+    <string name="_120_calories_burned_per_mile">120 calories burned per mile</string>
+    <string name="_100_calories_burned_in_20min">100 calories burned in 20 min</string>
+    <string name="_100_calories_burned_in_30min">100 calories burned in 30 min</string>
+    <string name="Jogging">Jogging</string>
+    <string name="Swimming">Swimming</string>
+    <string name="Bicycling">Bicycling</string>
+    <string name="Aerobic_exercise">Aerobic exercise</string>
+    <string name="Gardening">Gardening</string>
+    <string name="Select_your_activity_level">Select your activity level</string>
+    <string name="sedentary">I am sedentary (little or no exercise).</string>
+    <string name="lightly_active">I am lightly active (light exercise or sports 1–3 days per week)</string>
+    <string name="moderately_active">I am moderately active (moderate exercise or sports 3–5 days per week)</string>
+    <string name="Calculate_Daily_Calories_Intake">Calculate daily calorie intake</string>
+    <string name="very_active">I am very active (hard exercise or sports 6–7 days per week)</string>
+    <string name="super_active">I am super active (very hard exercise or sports and a physical job or 2x training)</string>
+    <string name="calories">calories</string>
+    <string name="calories_each_day_if_you_engage_in_no_activity_for_the_entire_day">calories each day if you engage in no activity for the entire day.</string>
+    <string name="This_means_that_your_body_will_burn">This means that your body will burn</string>
+    <string name="To_maintain_current_weight">To maintain current weight</string>
+    <string name="To_lose_weight">To lose weight</string>
+    <string name="To_gain_weight_by">To gain weight by</string>
+    <string name="Calorie_Requirements_a_Day_for_Women">Calorie Requirements a Day for Women</string>
+    <string name="Age">Age</string>
+    <string name="Sedentary">Sedentary</string>
+    <string name="Low_Activity">Low Activity</string>
+    <string name="Active">Active</string>
+    <string name="Calorie_Requirements_a_Day_for_Men">Calorie Requirements a Day for Men</string>
+    <string name="You_need">You need</string>
+    <string name="Calories_per_day">Calories per day</string>
+    <string name="Calories_per_day_will_cause_you_to_Lose_one_pound_a_week">Calories per day will cause you to Lose one pound a week.</string>
+    <string name="Calories_per_day_will_cause_you_to_gain_one_pound_a_week">Calories per day will cause you to gain one pound a week.</string>
+    <string name="Calculate_water_intake">Calculate Water Intake</string>
+    <string name="Daily_Water_Intake">Daily Water Intake</string>
+    <string name="enter_hdl">Enter HDL</string>
+    <string name="mgdl">mg/dl</string>
+    <string name="mgol_a">mg/ol/L</string>
+    <string name="enter_ldl">Enter LDL</string>
+    <string name="enter_triglyceride">Enter Triglyceride</string>
+    <string name="calculate_colestrol">Calculate Cholesterol Ratio</string>
+    <string name="your_cholestrol">Your Cholesterol Ratio is</string>
+    <string name="Calculate_Heart_Rate">Calculate Heart Rate</string>
+    <string name="Enter_your_resting_heart_rate">Enter your resting heart rate</string>
+    <string name="Enter_Heart_Rate">Enter Heart Rate</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="Karvonen_Formula">Karvonen Formula for Heart Rate Calculator \10 (Heart Rate Reserve Method)</string>
+    <string name="Intensity">Intensity</string>
+    <string name="Heart_Rate">Heart Rate is : </string>
+    <string name="Target_Heart_Rate_Zone_Calculator">Target Heart Rate Zone Calculator</string>
+    <string name="overview_bengin">Overview</string>
+    <string name="overview_benginn"><b>Benign lung cancer or tumors</b>:  \n - Aren\’t cancerous, so won’t spread to other parts of the body. \n - Grow slowly, or might even stop growing or shrink. \n - Aren’t usually life-threatening. Usually do not need to be removed. \n - Can expand and push against nearby tissues but will not invade, destroy, or replace other tissues.</string>
+    <string name="bengin_sym">Symptoms and Causes</string>
+    <string name="b_sym1">Granulomas (small clumps of inflamed cells) that develop as a result of a bacterial infection such as tuberculosis or from fungal infections such as histoplasmosis or coccidiomycosis.</string>
+    <string name="b_sym2">A lung abscess (pus-filled infection usually caused by bacteria)</string>
+    <string name="b_sym3">Inflammation from such diseases as rheumatoid arthritis, sarcoidosis or Wegener\’s granulomatosis.</string>
+    <string name="b_sym4">Infection from human papilloma virus.</string>
+    <string name="b_sym5">Birth defects such as a lung cyst, scars, or other lung malformation.</string>
+    <string name="what_causes_benign_lung_cancer">What causes benign lung cancer?</string>
+    <string name="what_sym_benign_lung_cancer">What are the symptoms of benign lung cancer?</string>
+    <string name="b_sym6">Mild cough that lasts for a long time.</string>
+    <string name="b_sym7">Shortness of breath, difficulty breathing, wheezing.</string>
+    <string name="b_sym8">Coughing up blood.</string>
+    <string name="b_sym9">Rattling sounds in the lungs.</string>
+    <string name="bengin_management">Management and Treatment</string>
+    <string name="mng_bengin">In most cases, benign lung tumors don\’t require treatment. Your healthcare provider will want to take a series of X-rays or CT (computed tomography) scans over a period of months to years to watch for any changes in tumor size or features.</string>
+    <string name="mng_bengin1">Your healthcare team may recommend a biopsy or surgery to remove the tumor if:  \n\n - You are a smoker or have a high risk of cancer.\n - You have difficulty breathing or other troubling symptoms. \n - Tests show that cancer could be present. \n - The nodule continues to grow.</string>
+    <string name="Prevention">How to prevent Malignant lung Cancer?</string>
+    <string name="m_prevent1">Not all lung cancers can be prevented. But there are things you can do that might lower your risk.</string>
+    <string name="m_prevent2"><b>Stay away from tobacco</b> The best way to reduce your risk of lung cancer is not to smoke and to avoid breathing in other people\’s smoke. If you stop smoking before a cancer develops, your damaged lung tissue gradually starts to repair itself. No matter what your age or how long you\’ve smoked, quitting may lower your risk of lung cancer and help you live longer.</string>
+    <string name="m_prevent3"><b>Avoid radon exposure</b> Radon is an important cause of lung cancer. You can reduce your exposure to radon by having your home tested and treated, if needed.</string>
+    <string name="m_prevent4"><b>Avoid or limit exposure to cancer-causing agents</b> Avoiding exposure to known cancer-causing agents, in the workplace and elsewhere, may also be helpful. When people work where these exposures are common, they should be kept to a minimum.</string>
+    <string name="m_prevent5"><b>Eat a healthy diet</b> A healthy diet with lots of fruits and vegetables may also help reduce your risk of lung cancer. Some evidence suggests that a diet high in fruits and vegetables may help protect people who smoke and those who don\'t against lung cancer. But any positive effect of fruits and vegetables on lung cancer risk would be much less than the increased risk from smoking.</string>
+    <string name="actinic_Prevention">How to prevent actinic keratosis?</string>
+    <string name="ac_prevent1">Applying sunscreen every day, even in cloudy weather or during winter, and re-applying often — at least every two hours. Use a broad-spectrum sunscreen with at least 30 sun protection factor (SPF) that blocks both UVA and UVB light.</string>
+    <string name="ac_prevent2">Avoiding sun exposure when UV light is most intense, between 10 a.m. and 2 p.m.</string>
+    <string name="ac_prevent3">Avoiding tanning salons, sun lamps and tanning beds.</string>
+    <string name="ac_prevent4">Wearing sun-safe clothing, such as long-sleeved shirts, long pants and hats.</string>
+    <string name="actinic_management">How is actinic keratosis treated?</string>
+    <string name="ac_management">To remove actinic keratosis, your provider may use:</string>
+    <string name="ac_manage1"><b>Chemical peels:</b> A chemical peel is like a medical-grade face mask. Your healthcare provider applies the peel during an office visit. The chemicals in the treatment safely destroy unwanted patches in your top layer of skin.</string>
+    <string name="ac_manage2"><b>Cryotherapy:</b> If you have one or two AKs, your provider may use cryotherapy. During this treatment, your provider uses a cold substance such as liquid nitrogen to freeze skin growths.</string>
+    <string name="ac_manage3"><b>Excision:</b> During this treatment, your healthcare provider first numbs the skin around your AK. Your provider then scrapes away or cuts out the AKs and stitches the area back together.</string>
+    <string name="ac_manage4"><b>Photodynamic therapy:</b> If you have multiple AKs or AKs that return after treatment, your provider may recommend photodynamic therapy.</string>
+    <string name="basal_Prevention">How to prevent Basal Cell Carcinoma?</string>
+    <string name="basal_prevent">To reduce your risk of basal cell carcinoma you can:</string>
+    <string name="basal_prevent1">Avoid the sun during the middle of the day. In many places, the sun\'s rays are strongest between about 10 a.m. and 4 p.m.</string>
+    <string name="basal_prevent2">Wear sunscreen year-round. Use a broad-spectrum sunscreen with an SPF of at least 30, even on cloudy days.</string>
+    <string name="basal_prevent3">Wear protective clothing. Cover your skin with dark, tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than does a baseball cap or visor.</string>
+    <string name="basal_prevent4">Avoid tanning beds. Tanning beds emit UV rays and can increase your risk of skin cancer.</string>
+    <string name="basal_management">What are the treatments for basal cell carcinoma (BCC)?</string>
+    <string name="basal_manage">The choice of treatment depends on many things, including patient health and age, the location of the tumor, and the extent and type of the cancer. Treatment may occur in many ways:</string>
+    <string name="basal_manage1">Scratching off with a curette, an instrument that may end in a ring or a spoon, and then burning with a special electric needle. This method is called electrodessication and curettage.</string>
+    <string name="basal_manage2">"Mohs surgery: This is a specialized technique. The doctor first removes the visible cancer and then begins cutting around the edges. "</string>
+    <string name="basal_manage3">Applying chemotherapy medication to the skin</string>
+    <string name="basal_manage4">Using blue light and a light-sensitive agent applied to the skin (photodynamic therapy or PDT)</string>
+    <string name="derma_Prevention">How to prevent dermatofibroma?</string>
+    <string name="derma_prevent1">Researchers don\’t currently know exactly why the dermatofibromas occur in some people.\n\nBecause the cause is unknown, there is no sure way to prevent dermatofibromas from developing.</string>
+    <string name="derma_management">How is dermatofibroma treated?</string>
+    <string name="dermaa_management">Typically, dermatofibromas are chronic and don\’t spontaneously resolve on their own. Because they are harmless, treatment is usually solely for cosmetic reasons.\n\nTreatment options for dermatofibromas include:</string>
+    <string name="dermaa_management1">freezing (with liquid nitrogen)</string>
+    <string name="dermaa_management2">localized corticosteroid injection</string>
+    <string name="dermaa_management3">laser therapy</string>
+    <string name="dermaa_management4">shaving the top to flatten the growth</string>
+    <string name="dermaa_management5">These therapies may not be completely successful at removing a dermatofibroma because the tissue may reaccumulate within the lesion until it returns to its size before therapy.</string>
+    <string name="dermaa_management6">A dermatofibroma can be completely removed with a wide surgical excision, but there is also a high likelihood of scar formation that may be considered more unsightly than the dermatofibroma itself.</string>
+    <string name="dermaa_management7"><u>Never attempt removal of a growth at home. This can lead to infection, scarring, and excess bleeding.</u></string>
+    <string name="melanoma_Prevention">How to prevent Melanoma?</string>
+    <string name="melanoma_management">How is Melanoma treated?</string>
+    <string name="melanoma_prevent1">You can reduce your risk of melanoma and other types of skin cancer if you:</string>
+    <string name="mela_management">If melanoma has spread beyond the skin, treatment options may include:</string>
+    <string name="mela_management1"><b>Surgery to remove affected lymph nodes.</b> If melanoma has spread to nearby lymph nodes, your surgeon may remove the affected nodes.</string>
+    <string name="mela_management2"><b>Immunotherapy.</b> Immunotherapy is a drug treatment that helps your immune system to fight cancer.</string>
+    <string name="mela_management3"><b>Targeted therapy.</b> Targeted drug treatments focus on specific weaknesses present within cancer cells.</string>
+    <string name="mela_management4"><b>Radiation therapy.</b> This treatment uses high-powered energy beams, such as X-rays and protons, to kill cancer cells.</string>
+    <string name="mela_management5"><b>Chemotherapy:</b> Chemotherapy uses drugs to kill cancer cells. Chemotherapy can be given intravenously, in pill form or both so that it travels throughout your body.</string>
+    <string name="nevus_Prevention">How to prevent Nevus?</string>
+    <string name="nevus_management">How is Nevus treated?</string>
+    <string name="nevus_prevent1">You can reduce your risk of nevus and other types of skin cancer if you:</string>
+    <string name="nevuss_management">If nevus has spread beyond the skin, treatment options may include:</string>
+    <string name="sebo_Prevention">How to prevent Seborrheic Keratosis?</string>
+    <string name="sebo_prevent1">There is no way to completely prevent the development of seborrheic keratoses. However, if you know you\’re at risk or you frequently develop these growths, working with a dermatologist means you can limit the impact this skin condition has on your life.</string>
+    <string name="sebo_management">How is seborrheic keratosis treated?</string>
+    <string name="seborr_management">You should always have new skin growths clinically diagnosed to make sure they aren\’t cancerous. Different kinds of skin growths can be hard to tell apart from each other. If your healthcare provider is in any doubt about your growth, they might want to remove it for biopsy.</string>
+    <string name="seborr_management1">If it is clearly a seborrheic keratosis, it won\’t require any treatment. But you might want to have it removed if it becomes itchy or irritated or you don\’t like the look of it. Your healthcare provider can remove it for you in the office using one of several common methods.</string>
+    <string name="pigmented_Prevention">How to prevent Pigmented Benign Keratosis?</string>
+    <string name="pigmented_prevent1">There is no way to completely prevent the development of Pigmented Benign Keratosis. However, if you know you\’re at risk or you frequently develop these growths, working with a dermatologist means you can limit the impact this skin condition has on your life.</string>
+    <string name="pigmented_management">How is Pigmented Benign Keratosis treated?</string>
+    <string name="pigmented_management1">If it is clearly a Pigmented Benign Keratosis, it won\’t require any treatment. But you might want to have it removed if it becomes itchy or irritated or you don\’t like the look of it. Your healthcare provider can remove it for you in the office using one of several common methods.</string>
+    <string name="squa_Prevention">How to prevent Squamous cell carcinoma?</string>
+    <string name="squa_management">How is Squamous cell carcinoma treated?</string>
+    <string name="squaa_management"><b><u>Treatments for very small skin cancers</u></b>\n\nIf your skin cancer is very small and has a low risk of spreading, you might consider less invasive treatments, including:</string>
+    <string name="squaa_management1"><b>Curettage and electrodessication (C and E).</b> C and E treatment involves removing the surface of the skin cancer with a scraping instrument (curet) and then searing the base of the cancer with an electric needle.</string>
+    <string name="squaa_management2"><b>Laser therapy.</b> An intense beam of light vaporizes growths, usually with little damage to surrounding tissue and with a reduced risk of bleeding, swelling and scarring.</string>
+    <string name="squaa_management3"><b>Freezing.</b> This treatment involves freezing cancer cells with liquid nitrogen (cryosurgery). It may be an option for treating superficial skin lesions.</string>
+    <string name="squaa_management4"><b>Photodynamic therapy.</b> Photodynamic therapy combines photosensitizing drugs and light to treat superficial skin cancers. During photodynamic therapy, a liquid drug that makes the cancer cells sensitive to light is applied to the skin. Later, a light that destroys the skin cancer cells is shined on the area.</string>
+    <string name="squaam_management"><b><u>Treatments for larger skin cancers</u></b>\n\nMore invasive treatments might be recommended for larger squamous cell carcinomas and those that extend deeper into the skin. Options might include:</string>
+    <string name="squaam_management1"><b>Simple excision.</b> In this procedure, your doctor cuts out the cancerous tissue and a surrounding margin of healthy skin.</string>
+    <string name="squaam_management2"><b>Mohs surgery.</b> During Mohs surgery, your doctor removes the cancer layer by layer, examining each layer under the microscope until no abnormal cells remain.</string>
+    <string name="squaam_management3"><b>Radiation therapy.</b> Radiation therapy uses high-energy beams, such as X-rays and protons, to kill cancer cells.</string>
+    <string name="squaamo_management"><b><u>Treatments for skin cancer that spreads beyond the skin</u></b>\n\nWhen squamous cell carcinoma spreads to other parts of the body, drug treatments might be recommended, including:</string>
+    <string name="squaamo_management1"><b>Chemotherapy.</b> Chemotherapy uses powerful drugs to kill cancer cells. If squamous cell carcinoma spreads to the lymph nodes or other parts of the body, chemotherapy can be used alone or in combination with other treatments, such as targeted drug therapy and radiation therapy.</string>
+    <string name="squaamo_management2"><b>Targeted drug therapy.</b> Targeted drug treatments focus on specific weaknesses present within cancer cells.</string>
+    <string name="squaamo_management3"><b>Immunotherapy.</b> Immunotherapy is a drug treatment that helps your immune system to fight cancer. Your body\'s disease-fighting immune system might not attack cancer because the cancer cells produce proteins that blind the immune system cells.</string>
+    <string name="vascular_management">How is vascular lesion treated?</string>
+    <string name="vas_management">There are different types of treatment for childhood vascular tumors.</string>
+    <string name="vas_management1">Children with childhood vascular tumors should have their treatment planned by a team of health care providers who are experts in treating cancer in children.</string>
+    <string name="vas_management2">Twelve types of standard treatment are used:\n - Beta-blocker therapy\n - Surgery\n - Photocoagulation\n - Cryotherapy\n - Embolization\n - Chemotherapy\n - Sclerotherapy\n -Radiation therapy\n - Targeted therapy\n - Immuno therapy\n - Other drug therapy</string>
+    <string name="change_language">Change Language</string>
+    <string name="skin_cancer_ndetection">Skin Cancer \nDetection</string>
+    <string name="covid_disease_ndetection">Covid Disease \nDetection</string>
+    <string name="lung_cancer_ndetection">Lung Cancer \nDetection</string>
+    <string name="upcoming_model">Upcoming Model</string>
+    <string name="choose_language">Choose Language..</string>
+    <string name="basal_metabolic_rate">Basal Metabolic Rate</string>
+    <string name="body_mass_index">Body Mass Index</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="blood_volume">Blood Volume</string>
+    <string name="body_fat">Body Fat</string>
+    <string name="calorie_burn">Calorie Burn</string>
+    <string name="calorie_intake">Calorie Intake</string>
+    <string name="water_intake">Water Intake</string>
+    <string name="cholesterol_ratio">Cholesterol Ratio</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="key">AIzaSyBHnWBfNRBOJAEsoofmgLTuoJTfAR5MFfM</string>
+    <string name="medi_consult">Medi Consult</string>
+    <string name="disease_checker">Disease Checker</string>
+    <string name="disease_checker_tagline">Enter your symptoms and check the disease</string>
+    <string name="nearby_location_tagline">Find hospitals near you</string>
+    <string name="nearbyHospitals">Nearby Hospitals</string>
+    <string name="sos_tagline">SOS call for loved one</string>
+    <string name="sos_textline">Emergency SOS call</string>
+    <string name="please_fill_the_form_before_check_the_disease">Please fill the form before check the disease</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_age">Enter your age</string>
+    <string name="enter_your_symptoms">Select your symptoms !</string>
+    <string name="know_your_disease">KNOW YOUR DISEASE</string>
+    <string name="mr_xyz_you_may_have">Mr. XYZ you may have...</string>
+    <string name="for_more_information_click_here">For more Information, click HERE</string>
+    <string name="you_may_have">" you may have.."</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="enter_a_valid_number">Enter a valid number</string>
+    <string name="emergency_call_only"><u>Emergency call only</u></string>
+    <string name="covid19_tracker">Covid 19 Tracker</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="global_statistics">global statistics</string>
+    <string name="cases">Cases</string>
+    <string name="_0">0</string>
+    <string name="recovered">Recovered</string>
+    <string name="critical">Critical</string>
+    <string name="active">Active</string>
+    <string name="today_cases">Today Cases</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="affected_countries">Affected Countries</string>
+    <string name="track_countries">Track countries</string>
+    <string name="search_country">Search Country</string>
+    <string name="country_name">Country Name</string>
+    <string name="country">Country</string>
+    <string name="prompt_email">Enter Email id</string>
+    <string name="prompt_password">Enter password</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="signup">Register</string>
+    <string name="displayName">John Von</string>
+    <string name="breast_cancer_detection">Breast Cancer Detection</string>
+    <string name="heart_attack_prediction">Heart Attack Prediction</string>
+    <string name="tomography">> Tomography</string>
+    <string name="mammography"><![CDATA[> Mammography]]></string>
+    <string name="traditional"><![CDATA[> Traditional]]></string>
+    <string name="dermoscopy"><![CDATA[> Dermoscopy]]></string>
+    <string name="disease">Disease</string>
+    <string name="detection">Detection</string>
+    <string name="health">Health</string>
+    <string name="calculator">Calculator</string>
+    <string name="medi">Medi</string>
+    <string name="consult">Consult</string>
+    <string name="traditional_method">Traditional Method</string>
+    <string name="mammography_method">Mammography Method</string>
+    <string name="tradition_tv">Here you need to fill up some details, according to the data that you enter your result will display.</string>
+    <string name="memo_tv">Here you need to upload your scanned mammogram to detect the disease</string>
+    <string name="breast_cancer_predictor">Breast Cancer Predictor</string>
+    <string name="fill_form">Fill the below form to detect breast cancer:</string>
+    <string name="fill_form2">Fill below details to predict heart attack</string>
+    <string name="predict">Predict</string>
+    <string name="breast_text">Please select the mammogram from the gallery to detect the cancer</string>
+    <string name="prediction_hint2">Breast Cancer prediction result will show here</string>
+    <string name="Prevention2">How to prevent breast cancer?</string>
+    <string name="b_prevent1">Research shows that lifestyle changes can decrease the risk of breast cancer, even in women at high risk. To lower your risk:</string>
+    <string name="b_prevent2">Limit alcohol. The more alcohol you drink, the greater your risk of developing breast cancer. The general recommendation — based on research on the effect of alcohol on breast cancer risk — is to limit yourself to no more than one drink a day, as even small amounts increase risk</string>
+    <string name="b_prevent3">Maintain a healthy weight. If your weight is healthy, work to maintain that weight. If you need to lose weight, ask your doctor about healthy strategies to accomplish this. Reduce the number of calories you eat each day and slowly increase the amount of exercise.</string>
+    <string name="b_prevent4">Be physically active. Physical activity can help you maintain a healthy weight, which helps prevent breast cancer. Most healthy adults should aim for at least 150 minutes a week of moderate aerobic activity or 75 minutes of vigorous aerobic activity weekly, plus strength training at least twice a week</string>
+    <string name="b_prevent5">Breast-feed. Breast-feeding might play a role in breast cancer prevention. The longer you breast-feed, the greater the protective effect</string>
+    <string name="b_prevent6">Limit postmenopausal hormone therapy. Combination hormone therapy may increase the risk of breast cancer. Talk with your doctor about the risks and benefits of hormone therapy. You might be able to manage your symptoms with nonhormonal therapies and medications. If you decide that the benefits of short-term hormone therapy outweigh the risks, use the lowest dose that works for you and continue to have your doctor monitor the length of time you\'re taking hormones</string>
+
+    <string-array name="symptom_list">
+        <item>SELECT SYMPTOM</item>
+        <item>Anxiety</item>
+        <item>Stomach Ache</item>
+        <item>Nausea</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Sudden Weight Loss</item>
+        <item>Sweating</item>
+        <item>Muscle And Body Pain</item>
+        <item>Thirsty Than Usual</item>
+        <item>Headaches</item>
+        <item>Weakness/Fatigue</item>
+        <item>Abdominal Pain</item>
+        <item>Muscle Pain</item>
+        <item>Dry Cough</item>
+        <item>Diarrhoea/Constipation</item>
+        <item>Frequent Urination</item>
+        <item>Hunger</item>
+        <item>Blurred Vision</item>
+        <item>Skin Itching</item>
+        <item>Chest Pain</item>
+        <item>Shortness in Breath</item>
+        <item>Dizziness</item>
+        <item>Fast Heartbeat</item>
+        <item>Indigestion</item>
+        <item>Pressure Or Heaviness In Chest</item>
+
+    </string-array>
+</resources>

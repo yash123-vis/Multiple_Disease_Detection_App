@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hdp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/hpd_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hpd_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrainTumorPrediction">
+        <activity android:name=".ForgotActivity" />
+        <activity android:name=".BreastBenign" />
+        <activity android:name=".BreastMalignant" />
+        <activity android:name=".BreastCancerMammoActivity" />
+        <activity android:name=".BreastCancerModeSelect" />
+        <activity android:name=".HeartAttackPredictionActivity" />
+        <activity
+            android:name=".CalculatorSelectActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".Login.DiseasesActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".Login.RegistrationActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".CountryDetailsActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AffectedCountriesActivity" />
+        <activity android:name=".Covid19Activity" />
+        <activity android:name=".Medi_Consult.DiseaseActivity" />
+        <activity android:name=".Medi_Consult.SymptomsActivity" />
+        <activity android:name=".Medi_Consult.SOSCall" />
+        <activity android:name=".Medi_Consult.DiseaseChecker" />
+        <activity
+            android:name=".Medi_Consult.MediConsult"
+            android:theme="@style/CovidPreventionTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/key" />
+
+        <activity
+            android:name=".Login.VerificationActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".Login.PhoneLogin"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity android:name=".LungCancer.Malignant" />
+        <activity android:name=".Skin.Vascular" />
+        <activity android:name=".Skin.Squamous" />
+        <activity android:name=".Skin.Seborrheic" />
+        <activity android:name=".Skin.Pigmented" />
+        <activity android:name=".Skin.Nevus" />
+        <activity android:name=".Skin.Melanoma" />
+        <activity android:name=".Skin.Dermatofibroma" />
+        <activity android:name=".Skin.Basal" />
+        <activity android:name=".Skin.Actinic" />
+        <activity android:name=".LungCancer.Bengin" />
+        <activity android:name=".calculator.HeartRate.Heart_Rate_Chart" />
+        <activity android:name=".calculator.HeartRate.Heart_Rate_Result" />
+        <activity android:name=".calculator.Chelosterol.Cholestrol_Result" />
+        <activity android:name=".calculator.Water.Daily_WaterIntake_Result" />
+        <activity android:name=".calculator.Calorie.Daily_Calories_Intake_Chart" />
+        <activity android:name=".calculator.Calorie.Daily_Calories_Intake_Result" />
+        <activity android:name=".calculator.Calorie.Calories_Burn_Chart" />
+        <activity android:name=".calculator.Calorie.Calories_Burn_Result" />
+        <activity android:name=".calculator.BodyFat.Body_Fat_Chart" />
+        <activity android:name=".calculator.BodyFat.Bodyfat_Result" />
+        <activity android:name=".calculator.BloodVolume.BloodVolume_Result" />
+        <activity android:name=".calculator.BP.Bloodpressure_Chart" />
+        <activity android:name=".calculator.BP.BloodPressure_Result" />
+        <activity android:name=".calculator.BMI.BMI_Chart" />
+        <activity android:name=".calculator.BMI.BMI_Result" />
+        <activity android:name=".calculator.HeartRate.HeartRateActivity" />
+        <activity android:name=".calculator.Chelosterol.CHActivity" />
+        <activity android:name=".calculator.Water.WaterIntakeActivity" />
+        <activity android:name=".calculator.Calorie.CalorieIntakeActivity" />
+        <activity android:name=".calculator.Calorie.CalorieBurnActivity" />
+        <activity android:name=".calculator.BodyFat.BodyFatActivity" />
+        <activity android:name=".calculator.BloodVolume.BVActivity" />
+        <activity android:name=".calculator.BP.BPActivity" />
+        <activity android:name=".calculator.BMI.BMIActivity" />
+        <activity android:name=".calculator.BMR.BMR_Result" />
+        <activity android:name=".calculator.BMR.BMRActivity" />
+        <activity
+            android:name=".BreastCancerActivity"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity
+            android:name=".LungCancerActivity"
+            android:theme="@style/BlueTheme" />
+        <activity
+            android:name=".CovidPrevention"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity android:name=".CovidTreatment" />
+        <activity android:name=".SelectActivity" />
+        <activity
+            android:name=".SkinActivty"
+            android:theme="@style/CovidPreventionTheme" />
+        <activity android:name=".SkinActivity" />
+        <activity
+            android:name=".CovidActivity"
+            android:theme="@style/CovidTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/TreatmentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreventionActivity" />
+        <activity
+            android:name=".TreatmentActivity"
+            android:theme="@style/TreatmentTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/CovidTheme">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

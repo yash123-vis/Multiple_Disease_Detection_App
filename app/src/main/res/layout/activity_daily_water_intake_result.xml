@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_rectengle"
+    android:padding="8dp"
+    android:layout_gravity="center"
+    tools:context=".calculator.Water.Daily_WaterIntake_Result">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/iv_imoji"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/imoji_default" />
+
+    <TextView
+        android:id="@+id/tv_waterintake_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_imoji"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/productsans_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

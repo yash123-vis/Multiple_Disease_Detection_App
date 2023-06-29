@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BreastCancerModeSelect">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your mode of checkup:"
+        android:fontFamily="@font/productsans_regular"
+        android:textSize="21sp"
+        android:textColor="@color/black"
+        android:letterSpacing="0.03"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/selectMode"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/traditionalCard"
+        android:layout_below="@id/selectMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/blue">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/clipboard"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/traditional_method"
+                android:textSize="19sp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/productsans_bold"
+                android:textColor="@color/black"
+                android:letterSpacing="0.04"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tradition_tv"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/productsans_regular"
+                android:textColor="@color/black"
+                android:letterSpacing="0.02"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mamographyCard"
+        android:layout_below="@id/traditionalCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/blue">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mammography"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mammography_method"
+                android:textSize="19sp"
+                android:fontFamily="@font/productsans_bold"
+                android:textColor="@color/black"
+                android:letterSpacing="0.04"
+                android:textAllCaps="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/memo_tv"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/productsans_regular"
+                android:textColor="@color/black"
+                android:letterSpacing="0.02"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

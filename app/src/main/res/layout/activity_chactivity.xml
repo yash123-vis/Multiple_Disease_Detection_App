@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    tools:context=".calculator.Chelosterol.CHActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@id/ll_bmi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hpd_logo" />
+
+    <ImageView
+        android:id="@+id/rect1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/gray_rectangle" />
+
+    <ImageView
+        android:id="@+id/rect2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/rect1"
+        android:layout_toEndOf="@id/rect1"
+        android:src="@drawable/gray_rectangle" />
+
+    <ImageView
+        android:id="@+id/rect3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/rect2"
+        android:layout_toEndOf="@id/rect2"
+        android:src="@drawable/gray_rectangle" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/et_hdl"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/enter_hdl"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_hdl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/mgdl"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/et_ldl"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/enter_ldl"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_ldl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/mgdl"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/et_triglyceride"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/corner2"
+                    android:fontFamily="@font/productsans_regular"
+                    android:hint="@string/enter_triglyceride"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_triglyceride"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/corner2"
+                    android:drawableRight="@drawable/down"
+                    android:fontFamily="@font/productsans_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/mgdl"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tv_search_cholestrol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/b_gred_ripple"
+            android:fontFamily="@font/productsans_bold"
+            android:letterSpacing="0.03"
+            android:gravity="center"
+            android:text="@string/calculate_colestrol"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</RelativeLayout>

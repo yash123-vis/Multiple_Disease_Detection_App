@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_rectengle"
+    android:padding="8dp"
+    android:layout_gravity="center"
+    tools:context=".calculator.BodyFat.Bodyfat_Result">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/iv_imoji"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/imoji_default" />
+
+    <TextView
+        android:id="@+id/tv_ans_bodyfat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_imoji"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/productsans_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_bodyfat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ans_bodyfat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/productsans_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_recomended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_bodyfat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/productsans_regular"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_bodyfatchart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_recomended"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_ripple"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/View_Chart"
+        android:textSize="16sp"
+        android:fontFamily="@font/productsans_bold"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

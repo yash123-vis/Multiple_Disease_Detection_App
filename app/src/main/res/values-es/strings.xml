@@ -1,0 +1,487 @@
+<resources>
+    <string name="app_name">Healthcare Management</string>
+    <string name="brain_text">Seleccione la imagen del cerebro de la galería\de lo contrario, mostrará una predicción incorrecta.</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="predict_text">Predicción</string>
+    <string name="prediction_hint">El resultado de predicción de tumor cerebral se mostrará aquí.</string>
+    <string name="source1">https://www.ucsfhealth.org/</string>
+    <string name="brain1">El tratamiento de los tumores cerebrales depende de varios factores, incluidos el tipo, la ubicación y el tamaño del tumor, así como la edad y el estado de salud general del paciente. Los métodos y horarios de tratamiento difieren para niños y adultos.</string>
+    <string name="brain2">Los tumores cerebrales se tratan con cirugía, radioterapia y quimioterapia. Dependiendo de sus necesidades, se pueden utilizar varios métodos. Antes de que comience el tratamiento, la mayoría de los pacientes reciben esteroides, medicamentos que alivian la hinchazón o el edema. Es posible que reciba un medicamento anticonvulsivo para prevenir o controlar las convulsiones.</string>
+    <string name="surgery1">La cirugía es el tratamiento habitual para la mayoría de los tumores cerebrales. Para extirpar un tumor cerebral, un neurocirujano hace una abertura en el cráneo. Esta operación se llama craneotomía. Siempre que sea posible, el cirujano intenta extirpar todo el tumor. Si el tumor no se puede extirpar por completo sin dañar el tejido cerebral vital, su médico puede extirpar la mayor cantidad de tumor posible. La extirpación parcial ayuda a aliviar los síntomas al reducir la presión sobre el cerebro y reduce la cantidad de tumor que debe tratarse con radioterapia o quimioterapia.</string>
+    <string name="surgery2">Algunos tumores no se pueden extirpar. En tales casos, su médico puede hacer solo una biopsia. Se extrae una pequeña parte del tumor para que un patólogo pueda examinarlo bajo un microscopio para determinar el tipo de células que contiene. Esto ayuda a su médico a decidir qué tratamiento usar.</string>
+    <string name="surgery3">Otras técnicas avanzadas durante la cirugía incluyen mapeo cerebral para encontrar vías funcionales cerca de los tumores, endoscopia para realizar biopsias y abrir vías de líquido cefalorraquídeo a través de un pequeño endoscopio y resecciones tumorales asistidas por computadora estereotáxicas avanzadas sin marco. La resonancia magnética intraoperatoria también está disponible para ayudar a maximizar la extirpación del tumor.</string>
+    <string name="brain_surgery_image_source">radiologykey.com</string>
+    <string name="radiation1">La radioterapia, también llamada radioterapia, es el uso de rayos de alta potencia para dañar las células cancerosas y evitar que crezcan. A menudo se usa para destruir el tejido tumoral que no se puede extirpar con cirugía o para eliminar las células cancerosas que pueden quedar después de la cirugía. La radioterapia también se usa cuando la cirugía no es posible.</string>
+    <string name="radiation2">La radioterapia se puede administrar de dos maneras.</string>
+    <string name="radiation3"><b>La radiación externa</b> proviene de una máquina grande. Generalmente, los tratamientos de radiación externa se administran cinco días a la semana durante varias semanas. El programa de tratamiento depende del tipo y tamaño del tumor y de su edad.</string>
+    <string name="radiation4"><b>El Gamma Knife</b>, o radiocirugía estereotáctica, es otra forma de tratar los tumores cerebrales. El bisturí de rayos gamma no es en realidad un bisturí, sino una técnica de radioterapia que administra una sola dosis alta de radiación finamente enfocada precisamente a su objetivo. El tratamiento se da en una sola sesión. Los rayos de alta energía se dirigen al tumor desde muchos ángulos. De esta manera, una alta dosis de radiación llega al tumor sin dañar otros tejidos cerebrales.</string>
+    <string name="radiation_image_source">mayoclinic.org</string>
+    <string name="chemotherapy1">La quimioterapia es el uso de medicamentos para destruir las células cancerosas. El médico puede usar solo un fármaco o una combinación, generalmente por vía oral o por inyección en un vaso sanguíneo o músculo. La quimioterapia intratecal consiste en inyectar los fármacos en el líquido cefalorraquídeo.</string>
+    <string name="chemotherapy2">La quimioterapia generalmente se administra en ciclos. A un período de tratamiento le sigue un período de recuperación, luego otro período de tratamiento y así sucesivamente. Los pacientes a menudo no necesitan permanecer en el hospital para recibir tratamiento y la mayoría de los medicamentos se pueden administrar en el consultorio médico o en la clínica. Sin embargo, dependiendo de los medicamentos utilizados, la forma en que se administran y el estado general de salud del paciente, puede ser necesaria una breve estancia en el hospital.</string>
+    <string name="chemotherapy3">Los avances en quimioterapia incluyen la colocación directa en la cavidad del tumor usando una nueva técnica llamada administración mejorada por convección.</string>
+
+    <string name="surgery">Cirugía</string>
+    <string name="radiation">Radioterapia</string>
+    <string name="chemotherapy">Quimioterapia</string>
+    <string name="unknown">desconocido</string>
+
+    <string name="prevention1">La principal herramienta para prevenir los tumores cerebrales es controlar su estilo de vida. Esto significa comer sano, hacer ejercicio, evitar los carcinógenos conocidos en su entorno y reducir el estrés.</string>
+    <string name="prevention2"><b>1. Sueño:</b> El sueño es un aliado para la salud del cerebro. Una cantidad adecuada de descanso con los ojos cerrados mantiene la salud de tu cerebro.</string>
+    <string name="prevention3"><b>2. Aceite de incienso:</b> Junto con el yoga, la meditación y los ejercicios de respiración para reducir el estrés, la inhalación de aceite de incienso puede ayudar a aliviar la inflamación en el cerebro.</string>
+    <string name="prevention4"><b>3. Dieta anticancerígena:</b> Consumir una dieta rica en nutrientes que combaten el cáncer, como los antioxidantes, es fundamental para prevenir los tumores cerebrales.</string>
+    <string name="prevention5"><b>4. Dieta cetogénica:</b> Una dieta cetogénica es una dieta rica en proteínas. Reduce el estrés oxidativo y la inflamación en el cerebro que se asocia con tumores cerebrales. También cierra el suministro de nutrientes a los tumores.</string>
+    <string name="prevention6"><b>5. Restricción calórica:</b> La restricción dietética, especialmente el ayuno, tiene propiedades anticancerígenas al igual que la dieta cetogénica.</string>
+    <string name="prevention7"><b>6. Limite la exposición a los teléfonos móviles:</b> El uso de teléfonos móviles aumenta el riesgo de tumores cerebrales. Así que la restricción previene estos tumores. Si desea discutir sobre algún problema específico, puede consultar a un Neurólogo.</string>
+    <string name="link1"><u>Fuente: https://www.lybrate.com/</u></string>
+    <string name="link2"><u>Fuente: https://www.ucsfhealth.org/</u></string>
+
+    <string name="refresh"><u>Actualizar</u></string>
+    <string name="covid_hint">El resultado de COVID-19 se mostrará aquí</string>
+    <string name="buttonTakePhoto">Tomar imagen</string>
+    <string name="buttonSelectPhoto">Seleccionar imagen</string>
+    <string name="descriptionImage">imagen de la piel</string>
+    <string name="buttonDiagnose">Predecir</string>
+    <string name="defaultImage">Imagen predeterminada establecida ahora…</string>
+    <string name="brain_tumor_detection">Detección de \ntumores cerebrales</string>
+    <string name="covid_text">Seleccione la imagen de escaneo adecuada de la galería; de lo contrario, mostrará una predicción incorrecta.</string>
+    <string name="skin_text">Seleccione la imagen afectada de la piel adecuada de la galería; de lo contrario, mostrará una predicción incorrecta.</string>
+    <string name="skin_hint">El resultado del cáncer de piel se mostrará aquí..</string>
+
+    <string name="actinic_keratosis">La protección solar es necesaria para ayudar a prevenir el desarrollo y la recurrencia de parches y manchas de queratosis actínica.\nSiga estos pasos para proteger su piel del sol: \n
+        - <b>Limite su tiempo al sol.</b> Evite especialmente el tiempo al sol entre las 10 a. m. y las 2 p. m. Y evite permanecer al sol tanto tiempo que se queme o se broncee.
+        - <b>Use protector solar.</b> Antes de pasar tiempo al aire libre, incluso en días nublados, aplique un protector solar de amplio espectro resistente al agua con un factor de protección solar (SPF) de al menos 30, como recomienda la Academia Estadounidense de Dermatología. .\n\nUse protector solar en toda la piel expuesta y use bálsamo labial con protector solar en los labios. Aplique protector solar al menos 15 minutos antes de salir y vuelva a aplicarlo cada dos horas, o con más frecuencia si está nadando o sudando.\n\nNo se recomienda el protector solar para bebés menores de 6 meses. Más bien, manténgalos alejados del sol si es posible, o protéjalos con sombra, sombreros y ropa que cubra los brazos y las piernas.
+        - <b>Cubrirse.</b> Para una mayor protección contra el sol, use ropa de tejido tupido que cubra sus brazos y piernas. También use un sombrero de ala ancha, que brinda más protección que una gorra de béisbol o una visera de golf.
+        - <b>Evite las camas de bronceado.</b> La exposición a los rayos UV de una cama de bronceado puede causar tanto daño en la piel como el bronceado adquirido por el sol.
+        - <b>Revise su piel regularmente e informe cualquier cambio a su médico.</b> Examine su piel regularmente, buscando el desarrollo de nuevos crecimientos en la piel o cambios en lunares, pecas, bultos y marcas de nacimiento existentes. Con la ayuda de espejos, revisa tu cara, cuello, orejas y cuero cabelludo. Examina la parte superior e inferior de tus brazos y manos.</string>
+    <string name="basal_cell">Para reducir su riesgo de carcinoma de células basales, puede:\n\n
+        - <b>Evite el sol durante la mitad del día.</b> En muchos lugares, los rayos del sol son más fuertes entre las 10 a. m. y las 4 p. m. Programe las actividades al aire libre para otros momentos del día, incluso durante el invierno o cuando el cielo esté nublado. \n\n<b>Use protector solar durante todo el año.</b> Use un protector solar de amplio espectro con un SPF de al menos 30, incluso en días nublados. Aplique protector solar generosamente y vuelva a aplicar cada dos horas, o más a menudo si está nadando o sudando. \n\n<b>Use ropa protectora.</b> Cúbrase la piel con ropa oscura de tejido tupido que cubra sus brazos y piernas, y un sombrero de ala ancha, que brinda más protección que una gorra de béisbol o una visera. \nAlgunas empresas también venden ropa de protección. Un dermatólogo puede recomendar una marca apropiada. No te olvides de las gafas de sol. Busque aquellos que bloqueen ambos tipos de radiación UV: rayos UVA y UVB. \n\n<b>Evite las camas de bronceado.</b> Las camas de bronceado emiten rayos UV y pueden aumentar el riesgo de cáncer de piel. \n\n<b>Revise su piel regularmente e informe cualquier cambio a su médico.</b> Examine su piel con frecuencia en busca de nuevos crecimientos o cambios en los lunares, pecas, bultos y marcas de nacimiento existentes. Con la ayuda de espejos, revisa tu cara, cuello, orejas y cuero cabelludo. \nExamine su pecho y tronco y la parte superior e inferior de sus brazos y manos. Examine tanto la parte delantera como la trasera de las piernas y los pies, incluidas las plantas y los espacios entre los dedos de los pies. También revise su área genital y entre sus nalgas.</string>
+
+    <string name="derma_text">Es posible que un médico desee descartar afecciones que pueden parecerse a los dermatofibromas. Algunos de los posibles diagnósticos de crecimientos que, en raras ocasiones, pueden parecerse a los dermatofibromas de fuente confiable son: \n -cicatrización hipertrófica o queloide \n -melanoma maligno \n -carcinoma de células escamosas \n -carcinoma de células basales \n -nevus de Spitz \n -nevus azul \n\nUn cáncer de piel raro llamado dermatofibrosarcoma protuberans también se parece inicialmente a un dermatofibroma. \nDebido a esto, un médico calificado siempre debe hacer el diagnóstico.</string>
+    <string name="melanoma_text">Puede reducir su riesgo de melanoma y otros tipos de cáncer de piel si: \n<b>Evita el sol durante la mitad del día.</b> Para muchas personas en América del Norte, los rayos del sol son más fuertes entre las 10 a. m. y las 4 p. m. Programa las actividades al aire libre para otros momentos del día, incluso en invierno o cuando el cielo está nublado. Usted absorbe la radiación ultravioleta durante todo el año y las nubes ofrecen poca protección contra los rayos dañinos. Evitar el sol en su máxima expresión ayuda a evitar las quemaduras solares y los bronceados que dañan la piel y aumentan el riesgo de desarrollar cáncer de piel. La exposición al sol acumulada con el tiempo también puede causar cáncer de piel. \n\n<b>Use protector solar durante todo el año.</b> Use un protector solar de amplio espectro con un SPF de al menos 30, incluso en días nublados. Aplique protector solar generosamente y vuelva a aplicar cada dos horas, o más a menudo si está nadando o sudando. \n\n<b>Use ropa protectora.</b> Cúbrase la piel con ropa oscura de tejido tupido que cubra sus brazos y piernas, y un sombrero de ala ancha, que brinda más protección que una gorra de béisbol o una visera. Algunas empresas también venden ropa de protección. Un dermatólogo puede recomendar una marca adecuada. No te olvides de las gafas de sol. Busque aquellos que bloqueen ambos tipos de radiación UV: rayos UVA y UVB.</string>
+
+    <string name="squ_cell">Para reducir el riesgo de carcinoma de células escamosas, puede:\n\n
+        - <b>Evite el sol durante la mitad del día.</b> En muchos lugares, los rayos del sol son más fuertes entre las 10 a. m. y las 4 p. m. Programe las actividades al aire libre para otros momentos del día, incluso durante el invierno o cuando el cielo esté nublado. \n\n<b>Use protector solar durante todo el año.</b> Use un protector solar de amplio espectro con un SPF de al menos 30, incluso en días nublados. Aplique protector solar generosamente y vuelva a aplicar cada dos horas, o más a menudo si está nadando o sudando. \n\n<b>Use ropa protectora.</b> Cúbrase la piel con ropa oscura de tejido tupido que cubra sus brazos y piernas, y un sombrero de ala ancha, que brinda más protección que una gorra de béisbol o una visera. \nAlgunas empresas también venden ropa de protección. Un dermatólogo puede recomendar una marca apropiada. No te olvides de las gafas de sol. Busque aquellos que bloqueen ambos tipos de radiación UV: rayos UVA y UVB. \n\n<b>Evite las camas de bronceado.</b> Las camas de bronceado emiten rayos UV y pueden aumentar el riesgo de cáncer de piel. \n\n<b>Revise su piel regularmente e informe cualquier cambio a su médico.</b> Examine su piel con frecuencia en busca de nuevos crecimientos o cambios en los lunares, pecas, bultos y marcas de nacimiento existentes. Con la ayuda de espejos, revisa tu cara, cuello, orejas y cuero cabelludo. \nExamine su pecho y tronco y la parte superior e inferior de sus brazos y manos. Examine tanto la parte delantera como la trasera de las piernas y los pies, incluidas las plantas y los espacios entre los dedos de los pies. También revise su área genital y entre sus nalgas.</string>
+    <string name="vas_cell">Para reducir su riesgo de lesión vascular puede:\n\n
+        - <b>Evite el sol durante la mitad del día.</b> En muchos lugares, los rayos del sol son más fuertes entre las 10 a. m. y las 4 p. m. Programe las actividades al aire libre para otros momentos del día, incluso durante el invierno o cuando el cielo esté nublado. \n\n<b>Use protector solar durante todo el año.</b> Use un protector solar de amplio espectro con un SPF de al menos 30, incluso en días nublados. Aplique protector solar generosamente y vuelva a aplicar cada dos horas, o más a menudo si está nadando o sudando. \n\n<b>Use ropa protectora.</b> Cúbrase la piel con ropa oscura de tejido tupido que cubra sus brazos y piernas, y un sombrero de ala ancha, que brinda más protección que una gorra de béisbol o una visera. \nAlgunas empresas también venden ropa de protección. Un dermatólogo puede recomendar una marca apropiada. No te olvides de las gafas de sol. Busque aquellos que bloqueen ambos tipos de radiación UV: rayos UVA y UVB. \n\n<b>Evite las camas de bronceado.</b> Las camas de bronceado emiten rayos UV y pueden aumentar el riesgo de cáncer de piel. \n\n<b>Revise su piel regularmente e informe cualquier cambio a su médico.</b> Examine su piel con frecuencia en busca de nuevos crecimientos o cambios en los lunares, pecas, bultos y marcas de nacimiento existentes. Con la ayuda de espejos, revisa tu cara, cuello, orejas y cuero cabelludo. \nExamine su pecho y tronco y la parte superior e inferior de sus brazos y manos. Examine tanto la parte delantera como la trasera de las piernas y los pies, incluidas las plantas y los espacios entre los dedos de los pies. También revise su área genital y entre sus nalgas.</string>
+
+
+    <string name="treatment_mild">Tratamiento para pacientes con enfermedad leve/asintomática en aislamiento domiciliario</string>
+    <string name="treat_1">Los pacientes deben estar en comunicación con un oficial médico tratante e informar de inmediato en caso de cualquier deterioro.</string>
+    <string name="treat_2">"El paciente debe continuar con los medicamentos para otras comorbilidades/enfermedades después de consultar al Oficial Médico tratante.</string>
+    <string name="treat_3">El paciente puede utilizar la plataforma de teleconsulta puesta a disposición por la administración del distrito/estado.</string>
+    <string name="treat_4">Los pacientes deben seguir un control sintomático de fiebre, secreción nasal y tos, según se justifique.</string>
+    <string name="treat_5">Los pacientes pueden hacer gárgaras con agua tibia o inhalar vapor tres veces al día.</string>
+    <string name="treat_6">Si la fiebre no se controla con una dosis máxima de Tab. Paracetamol 650 mg cuatro veces al día, consultar con el médico tratante.</string>
+    <string name="treat_7">No se apresure a automedicarse, análisis de sangre o imágenes radiológicas como rayos X de tórax o tomografía computarizada de tórax sin consultar a los oficiales médicos que lo tratan.</string>
+    <string name="treat_8">Los esteroides no están indicados en enfermedades leves y no deben autoadministrarse. El uso excesivo e inadecuado de esteroides puede provocar complicaciones adicionales.</string>
+    <string name="treat_9">El tratamiento de cada paciente debe ser monitoreado individualmente según la condición específica del paciente en cuestión y, por lo tanto, se evitará compartir recetas genéricas.</string>
+    <string name="treat_10">En caso de caída de la saturación de oxígeno o dificultad para respirar, la persona puede requerir hospitalización y buscar una consulta inmediata con el oficial médico tratante/equipo de vigilancia/sala de control</string>
+    <string name="source_covid_treatment"><u>Fuente: https://www.mohfw.gov.in/</u></string>
+    <string name="when_to_seek_medical_attention">Cuándo buscar atención médica</string>
+
+    <string name="seek_t">El paciente/cuidador seguirá monitoreando su salud. Se debe buscar atención médica inmediata si se desarrollan signos o síntomas graves. Estos podrían incluir:</string>
+    <string name="seek_1">i. Fiebre alta no resuelta (más de 100° F por más de 3 días). \nii. Dificultad para respirar. \niii. Inmersión en la saturación de oxígeno (SpO2 ≤ 93 % en aire ambiente, al menos 3 lecturas en 1 hora) o frecuencia respiratoria > 24/min. \niv. Dolor/presión persistente en el pecho. \Nevada. Confusión mental o incapacidad para despertar. \nvi. Fatiga severa y mialgia.></string>
+    <string name="asym_cases">Casos asintomáticos/casos leves de COVID-19</string>
+    <string name="asym_1">Los casos asintomáticos son casos confirmados por laboratorio que no experimentan ningún síntoma y tienen una saturación de oxígeno en el aire ambiente de más del 93 %. \n\nLos casos leves clínicamente asignados son pacientes con síntomas del tracto respiratorio superior con o sin fiebre, sin dificultad para respirar y con una saturación de oxígeno en el aire ambiente de más del 93 %</string>
+    <string name="home_isolaton">Pacientes elegibles para aislamiento domiciliario</string>
+    <string name="prev_1">El oficial médico tratante debe asignar clínicamente al paciente como caso leve/asintomático. Además, se proporcionará a la familia un número de contacto de la sala de control designado a nivel de distrito/subdistrito para obtener orientación adecuada para realizar pruebas, orientación relacionada con el manejo clínico, asignación de una cama de hospital, si se justifica.</string>
+    <string name="prev_2">Dichos casos deben tener las instalaciones necesarias en su residencia para <b>autoaislamiento</b> y para <b>poner en cuarentena a los contactos familiares.</b></string>
+    <string name="prev_3">Un cuidador <b>(idealmente alguien que haya completado su programa de vacunación contra el COVID-19)</b> debe estar disponible para brindar atención las 24 horas del día, los 7 días de la semana. <b>Un enlace de comunicación entre el cuidador y un oficial médico es un requisito previo para toda la duración del aislamiento en el hogar.</b></string>
+    <string name="prev_4">Los pacientes mayores de más de 60 años y aquellos con condiciones comórbidas como hipertensión, diabetes, enfermedad cardíaca, enfermedad pulmonar/hepática/renal crónica, enfermedad cerebrovascular, etc., solo podrán aislarse en el hogar. después de la evaluación adecuada por parte del médico tratante</string>
+    <string name="prev_5">No se recomienda el aislamiento en el hogar de los pacientes que sufren de un estado inmunocomprometido (VIH, receptores de trasplantes, terapia contra el cáncer, etc.) y <b>solo se les permitirá el aislamiento en el hogar después de una evaluación adecuada por parte del oficial médico tratante. </b></string>
+    <string name="prev_6">Si bien a un paciente se le permite el aislamiento en el hogar, todos los demás miembros de la familia, incluidos otros contactos, deberán seguir las <b>directrices de cuarentena en el hogar disponibles en:</b></string>
+    <string name="link_guidelines"><a href="https://www.mohfw.gov.in/pdf/Guidelinesforhomequarantine.pdf">https://www.mohfw.gov.in/pdf/Guidelinesforhomequarantine.pdf</a></string>
+    <string name="instruction_patient">Instrucciones para el paciente</string>
+
+    <string name="prev_11">El paciente debe aislarse de otros miembros del hogar, permanecer en la habitación identificada y lejos de otras personas en el hogar, especialmente ancianos y personas con condiciones comórbidas como hipertensión, enfermedad cardiovascular, enfermedad renal, etc.</string>
+    <string name="prev_21">El paciente debe usar en todo momento una máscara médica de triple capa. Deben desechar la máscara después de 8 horas de uso o antes si la máscara se moja o está visiblemente sucia. En caso de que el Cuidador ingrese a la habitación, tanto el Cuidador como el paciente pueden considerar preferiblemente usar una máscara N-95.</string>
+    <string name="prev_31">El paciente debe descansar y beber muchos líquidos para mantener una hidratación adecuada.</string>
+    <string name="prev_41">Siga las etiquetas respiratorias en todo momento.</string>
+    <string name="prev_51">Lávese las manos con frecuencia con agua y jabón durante al menos 40 segundos o límpielas con un desinfectante a base de alcohol.</string>
+    <string name="prev_61">Es necesario garantizar la limpieza de las superficies que se tocan con frecuencia en la habitación (mesas, picaportes, manijas, etc.) con jabón/detergente y agua. La limpieza puede ser realizada tanto por el paciente como por el cuidador siguiendo debidamente las precauciones requeridas como el uso de mascarillas y guantes.></string>
+    <string name="prev_71">Se recomienda el autocontrol de la saturación de oxígeno en sangre con un oxímetro de pulso para el paciente.</string>
+    <string name="prev_81">El paciente deberá autocontrolar su salud con un control diario de la temperatura e informar de inmediato si nota algún deterioro de los síntomas. El estado se compartirá con el oficial médico tratante, así como con los equipos de vigilancia/sala de control.</string>
+    <string name="health_calculator">Calculadora de salud</string>
+    <string name="lung_hint">El resultado del cáncer de pulmón se mostrará aquí..</string>
+    <string name="Enter_Age">Ingrese la edad</string>
+    <string name="Male">Masculino</string>
+    <string name="Female">Mujer</string>
+    <string name="Enter_Height">Ingresar altura</string>
+
+    <string name="cm">cm</string>
+    <string name="feet">pies</string>
+    <string name="lbs">lbs</string>
+    <string name="kg">kg</string>
+    <string name="Enter_Weight">Ingresar peso</string>
+    <string name="Calculate_BMR">Calcular BMR</string>
+    <string name="Your_BMR_is">Su tasa metabólica basal es</string>
+    <string name="Your_BMR_value_is">Su ingesta diaria de calorías es:</string>
+    <string name="Your_Body_Fat_is">Tu grasa corporal es</string>
+    <string name="Your_Childs_Predicted_Height">La altura prevista de su hijo es:</string>
+    <string name="Your_RMR_is">Tu tasa metabólica en reposo es</string>
+    <string name="cal_per_day">calorías/día</string>
+    <string name="cal_title">Calcular Índice de Adiposidad Corporal</string>
+    <string name="bmr_Calculator">Cálculo de BMR</string>
+    <string name="rmr_Calculator">Cálculo de RMR</string>
+    <string name="Calculate_RMR">Calcular tasa metabólica en reposo</string>
+    <string name="Calculate_BMI">Calcular IMC</string>
+    <string name="View_Chart">Ver gráfico</string>
+    <string name="Overweight">Sobrepeso</string>
+    <string name="Recommended_BMI_Value">Valor de IMC recomendado</string>
+    <string name="Obese">Obeso</string>
+    <string name="Extremely_Obese">Extremadamente Obeso</string>
+    <string name="Under_Weight">Peso inferior</string>
+    <string name="Your_BMI_is">Tu IMC es</string>
+    <string name="ok">OK</string>
+
+    <string name="Age_Group_Under17">Grupo de edad: menores de 17</string>
+    <string name="Age_Group_Under35">Grupo de edad: menores de 35</string>
+    <string name="Age_Group_Under35over">Grupo de edad: 35 y más</string>
+    <string name="Recommended_BMI">IMC recomendado:</string>
+    <string name="Overweight_BMI">IMC con sobrepeso:</string>
+    <string name="Obese_BMI">Índice de masa corporal obeso:</string>
+    <string name="Extremely_Obese_BMI">Índice de masa corporal extremadamente obeso:</string>
+    <string name="Enter_diastolic_Pressure">Ingrese la presión diastólica (superior) mmHg</string>
+    <string name="Enter_Systolic_Pressure">Ingrese la presión sistólica (superior) mmHg</string>
+    <string name="Calculate_Blood_Pressure">Calcular la presión arterial</string>
+    <string name="Enter_systolic_value">Ingrese el valor sistólico</string>
+    <string name="Enter_diastolic_value">Ingrese el valor diastólico</string>
+    <string name="Normal_Blood_Pressure">Presión arterial normal</string>
+    <string name="Prehypertension">Prehipertensión</string>
+    <string name="High_Blood_Pressure_Stage_1">Presión arterial alta (hipertensión) Etapa 1</string>
+    <string name="High_Blood_Pressure_Stage_2">Presión arterial alta (hipertensión) Etapa 2</string>
+    <string name="Hypertensive_Crisis_Emergency_care_needed">Crisis hipertensiva. Se necesita atención de emergencia</string>
+    <string name="upper_result">Resultado superior:</string>
+    <string name="lower_result">Resultado inferior:</string>
+    <string name="Systolic_Blood_Pressure">Presión arterial sistólica (superior)</string>
+    <string name="Blood_Pressure_Category">Categoría de presión arterial</string>
+    <string name="Systolic_mmHg">Sistólica mmHg</string>
+    <string name="Normal">Normal</string>
+
+    <string name="Hypertension_Stage1">Hipertensión Etapa 1</string>
+    <string name="Hypertension_Stage2">Hipertensión Etapa 2</string>
+    <string name="Hypertensive_Crisis">Crisis Hipertensiva</string>
+    <string name="Diastolic_Blood_Pressure">Presión arterial diastólica</string>
+    <string name="Diastolic_mmHg">Diastolic mmHg</string>
+    <string name="Calculate_Blood_volume">Calcular el volumen de sangre</string>
+    <string name="Your_bloodvolume_is">Su volumen de sangre es:</string>
+    <string name="liter">litro</string>
+    <string name="Calculate_Body_Fat">Calcular grasa corporal</string>
+    <string name="Very_Low">Muy bajo</string>
+    <string name="Recommended_Bodyfat">"La grasa corporal recomendada es "</string>
+    <string name="Low">Bajo</string>
+    <string name="Average">Promedio</string>
+    <string name="High">Alto</string>
+    <string name="Very_High">Muy Alto</string>
+    <string name="Body_Fat_Percentage_Comparison_Table">Tabla de comparación de porcentaje de grasa corporal</string>
+    <string name="Fat_Level">Nivel de grasa</string>
+    <string name="Men_fat">Hombres (%)</string>
+    <string name="Women_fat">Mujeres (%)</string>
+    <string name="Body_Fat_Percentage_for_Men_and_Women">Porcentaje de grasa corporal para hombres y mujeres</string>
+    <string name="Classification">Clasificación</string>
+    <string name="Essential_Fat">Grasas esenciales</string>
+
+    <string name="Athletes">Atletas</string>
+    <string name="Fitness">Fitness</string>
+    <string name="Acceptable">Aceptable</string>
+    <string name="Enter_distance_you_run">Ingrese la distancia que corre</string>
+    <string name="miles">millas</string>
+    <string name="Walking">Caminando</string>
+    <string name="Calculate_Your_Total_Calorie_Burn">Calcule su consumo total de calorías</string>
+    <string name="km">km</string>
+    <string name="Running">Corriendo</string>
+    <string name="Enter_Distance_You_Run">Ingrese la distancia que corre</string>
+    <string name="You_better_start_working">Será mejor que empieces a trabajar</string>
+    <string name="Nice_run_but_you_can_do_better">Buena carrera, pero puedes hacerlo mejor</string>
+    <string name="Very_good_Push_above_next_time">¡Muy bien! empujar arriba la próxima vez</string>
+    <string name="Great_Your_a_runner_keep_it_up">¡Genial! Eres un corredor... sigue así.</string>
+    <string name="Bill_Rogers_move_over">Bill Rogers se muda</string>
+    <string name="Your_my_hero_Have_a_jelly_doughnut">¡¡Eres mi héroe!! Toma una dona.</string>
+    <string name="Calories_burned">Calorías quemadas</string>
+    <string name="Burn_Calories">Quemar calorías</string>
+    <string name="Exercise">Ejercicio</string>
+
+    <string name="Approximate_Calories_Burned">Calorías quemadas aproximadas</string>
+    <string name="_100_calories_burned_per_mile">100 calorías quemadas por milla</string>
+    <string name="_120_calories_burned_per_mile">120 calorías quemadas por milla</string>
+    <string name="_100_calories_burned_in_20min">100 calorías quemadas en 20 minutos</string>
+    <string name="_100_calories_burned_in_30min">100 calorías quemadas en 30 minutos</string>
+    <string name="Jogging">Correr</string>
+    <string name="Swimming">Nadar</string>
+    <string name="Bicycling">Andar en bicicleta</string>
+    <string name="Aerobic_exercise">Ejercicio aeróbico</string>
+    <string name="Gardening">Jardinería</string>
+    <string name="Select_your_activity_level">Seleccione su nivel de actividad</string>
+    <string name="sedentary">Soy sedentario (poco o nada de ejercicio).</string>
+    <string name="lightly_active">Soy poco activo (ejercicio ligero o deportes 1 a 3 días a la semana)</string>
+    <string name="moderately_active">Soy moderadamente activo (ejercicio o deportes moderados de 3 a 5 días a la semana)</string>
+    <string name="Calculate_Daily_Calories_Intake">Calcular la ingesta diaria de calorías</string>
+    <string name="very_active">Soy muy activo (ejercicio intenso o deportes 6 o 7 días a la semana)</string>
+    <string name="super_active">Soy súper activo (ejercicio o deportes muy duros y un trabajo físico o entrenamiento 2x)</string>
+    <string name="calories">calorías</string>
+
+    <string name="calories_each_day_if_you_engage_in_no_activity_for_the_entire_day">calorías cada día si no realiza ninguna actividad durante todo el día.</string>
+    <string name="This_means_that_your_body_will_burn">Esto significa que tu cuerpo se quemará</string>
+    <string name="To_maintain_current_weight">Para mantener el peso actual</string>
+    <string name="To_lose_weight">Para perder peso</string>
+    <string name="To_gain_weight_by">Para ganar peso por</string>
+    <string name="Calorie_Requirements_a_Day_for_Women">Requisitos de calorías por día para mujeres</string>
+    <string name="Age">Edad</string>
+    <string name="Sedentary">Sedentaria</string>
+    <string name="Low_Activity">Actividad baja</string>
+    <string name="Active">Activo</string>
+    <string name="Calorie_Requirements_a_Day_for_Men">Requisitos de calorías por día para hombres</string>
+    <string name="You_need">Necesitas</string>
+    <string name="Calories_per_day">Calorías por día</string>
+    <string name="Calories_per_day_will_cause_you_to_Lose_one_pound_a_week">Las calorías por día harán que pierdas una libra por semana.</string>
+    <string name="Calories_per_day_will_cause_you_to_gain_one_pound_a_week">Las calorías por día harán que ganes una libra por semana.</string>
+    <string name="Calculate_water_intake">Calcular consumo de agua</string>
+    <string name="Daily_Water_Intake">Ingesta diaria de agua</string>
+
+    <string name="enter_hdl">Ingresar HDL</string>
+    <string name="mgdl">mg/dl</string>
+    <string name="mgol_a">mg/ol/L</string>
+    <string name="enter_ldl">Ingrese LDL</string>
+    <string name="enter_triglyceride">Ingrese Triglicérido</string>
+    <string name="calculate_colestrol">Calcular la relación de colesterol</string>
+    <string name="your_cholestrol">Su índice de colesterol es</string>
+    <string name="Calculate_Heart_Rate">Calcular frecuencia cardíaca</string>
+    <string name="Enter_your_resting_heart_rate">Ingrese su frecuencia cardíaca en reposo</string>
+    <string name="Enter_Heart_Rate">Ingresar frecuencia cardíaca</string>
+    <string name="heart_rate">Frecuencia cardíaca</string>
+    <string name="Karvonen_Formula">Fórmula de Karvonen para la calculadora de frecuencia cardíaca \10 (Método de reserva de frecuencia cardíaca)</string>
+    <string name="Intensity">Intensidad</string>
+    <string name="Heart_Rate">La frecuencia cardíaca es: </string>
+    <string name="Target_Heart_Rate_Zone_Calculator">Calculadora de zona de frecuencia cardíaca objetivo</string>
+    <string name="overview_bengin">Resumen</string>
+    <string name="overview_benginn"><b>Tumores o cáncer de pulmón benignos</b>: \n - No son cancerosos, por lo que no se diseminan a otras partes del cuerpo. \n - Crecen lentamente, o incluso pueden dejar de crecer o encogerse. \n - No suelen poner en peligro la vida. Por lo general, no es necesario quitarlo. \n - Puede expandirse y presionar contra los tejidos cercanos, pero no invadirá, destruirá ni reemplazará otros tejidos.</string>
+    <string name="bengin_sym">Síntomas y causas</string>
+
+    <string name="b_sym1">Granulomas (pequeños grupos de células inflamadas) que se desarrollan como resultado de una infección bacteriana como la tuberculosis o de infecciones fúngicas como la histoplasmosis o la coccidiomicosis.</string>
+    <string name="b_sym2">Absceso pulmonar (infección llena de pus generalmente causada por bacterias)</string>
+    <string name="b_sym3">Inflamación de enfermedades tales como artritis reumatoide, sarcoidosis o granulomatosis de Wegener.</string>
+    <string name="b_sym4">Infección por el virus del papiloma humano.</string>
+    <string name="b_sym5">Defectos congénitos como un quiste pulmonar, cicatrices u otra malformación pulmonar.</string>
+    <string name="what_causes_benign_lung_cancer">¿Qué causa el cáncer de pulmón benigno?</string>
+    <string name="what_sym_benign_lung_cancer">¿Cuáles son los síntomas del cáncer de pulmón benigno?</string>
+    <string name="b_sym6">Tos leve que dura mucho tiempo.</string>
+    <string name="b_sym7">Falta de aliento, dificultad para respirar, sibilancias.</string>
+    <string name="b_sym8">Tos con sangre.</string>
+    <string name="b_sym9">Sonidos de estertor en los pulmones.</string>
+    <string name="bengin_management">Gestión y Tratamiento</string>
+    <string name="mng_bengin">En la mayoría de los casos, los tumores pulmonares benignos no requieren tratamiento. Su proveedor de atención médica querrá tomar una serie de radiografías o tomografías computarizadas (TC) durante un período de meses a años para observar cualquier cambio en el tamaño o las características del tumor.</string>
+    <string name="mng_bengin1">Su equipo de atención médica puede recomendar una biopsia o cirugía para extirpar el tumor si: \n\n - Fuma o tiene un alto riesgo de cáncer.\n - Tiene dificultad para respirar u otros problemas síntomas. \n - Las pruebas muestran que el cáncer podría estar presente. \n - El nódulo continúa creciendo.</string>
+    <string name="Prevention">¿Cómo prevenir el Cáncer de Pulmón Maligno?</string>
+    <string name="m_prevent1">No todos los cánceres de pulmón se pueden prevenir. Pero hay cosas que puede hacer que podrían reducir su riesgo.</string>
+    <string name="m_prevent2"><b>Manténgase alejado del tabaco</b> La mejor manera de reducir su riesgo de cáncer de pulmón es no fumar y evitar respirar el humo de otras personas. Si deja de fumar antes de que se desarrolle un cáncer, el tejido pulmonar dañado comienza a repararse gradualmente. No importa cuál sea su edad o cuánto tiempo haya fumado, dejar de fumar puede reducir su riesgo de cáncer de pulmón y ayudarlo a vivir más tiempo.</string>
+    <string name="m_prevent3"><b>Evite la exposición al radón</b> El radón es una causa importante de cáncer de pulmón. Puede reducir su exposición al radón haciendo que su casa sea analizada y tratada, si es necesario.</string>
+    <string name="m_prevent4"><b>Evite o limite la exposición a agentes causantes de cáncer</b> También puede ser útil evitar la exposición a agentes causantes de cáncer conocidos, en el lugar de trabajo y en otros lugares. Cuando las personas trabajan donde estas exposiciones son comunes, deben reducirse al mínimo.</string>
+    <string name="m_prevent5"><b>Coma una dieta saludable</b> Una dieta saludable con muchas frutas y verduras también puede ayudar a reducir el riesgo de cáncer de pulmón. Cierta evidencia sugiere que una dieta rica en frutas y verduras puede ayudar a proteger a las personas que fuman y a las que no fuman contra el cáncer de pulmón. Pero cualquier efecto positivo de las frutas y verduras sobre el riesgo de cáncer de pulmón sería mucho menor que el aumento del riesgo por fumar.</string>
+    <string name="actinic_Prevention">¿Cómo prevenir la queratosis actínica?</string>
+
+    <string name="ac_prevent1">Aplicar protector solar todos los días, incluso cuando esté nublado o durante el invierno, y volver a aplicarlo con frecuencia, al menos cada dos horas. Use un protector solar de amplio espectro con un factor de protección solar (SPF) de al menos 30 que bloquee tanto la luz UVA como la UVB.</string>
+    <string name="ac_prevent2">Evitar la exposición al sol cuando la luz ultravioleta es más intensa, entre las 10 a. m. y las 2 p. m.</string>
+    <string name="ac_prevent3">Evitar salones de bronceado, lámparas solares y camas de bronceado.</string>
+    <string name="ac_prevent4">Usar ropa a prueba de sol, como camisas de manga larga, pantalones largos y sombreros.</string>
+    <string name="actinic_management">¿Cómo se trata la queratosis actínica?</string>
+    <string name="ac_management">Para eliminar la queratosis actínica, su proveedor puede usar:</string>
+    <string name="ac_manage1"><b>Exfoliaciones químicas:</b> Una exfoliación química es como una mascarilla facial de grado médico. Su proveedor de atención médica aplica la exfoliación durante una visita al consultorio. Los productos químicos del tratamiento destruyen de forma segura las manchas no deseadas en la capa superior de la piel.</string>
+    <string name="ac_manage2"><b>Crioterapia:</b> Si tiene una o dos QA, su proveedor puede usar crioterapia. Durante este tratamiento, su proveedor usa una sustancia fría como nitrógeno líquido para congelar los crecimientos de la piel.</string>
+    <string name="ac_manage3"><b>Escisión:</b> durante este tratamiento, su proveedor de atención médica primero adormece la piel alrededor de su AK. Luego, su proveedor raspa o corta los AK y vuelve a unir el área con suturas.</string>
+    <string name="ac_manage4"><b>Terapia fotodinámica:</b> Si tiene múltiples AK o AK que regresan después del tratamiento, su proveedor puede recomendarle una terapia fotodinámica.</string>
+    <string name="basal_Prevention">¿Cómo prevenir el carcinoma basocelular?</string>
+    <string name="basal_prevent">Para reducir su riesgo de carcinoma de células basales, puede:</string>
+    <string name="basal_prevent1">Evite el sol durante la mitad del día. En muchos lugares, los rayos del sol son más fuertes entre las 10 a. m. y las 4 p. m.</string>
+    <string name="basal_prevent2">Use protector solar todo el año. Use un protector solar de amplio espectro con un SPF de al menos 30, incluso en días nublados.</string>
+    <string name="basal_prevent3">Use ropa protectora. Cúbrase la piel con ropa oscura de tejido tupido que cubra sus brazos y piernas, y un sombrero de ala ancha, que proporciona más protección que una gorra de béisbol o una visera.</string>
+    <string name="basal_prevent4">Evite las camas de bronceado. Las camas de bronceado emiten rayos UV y pueden aumentar el riesgo de cáncer de piel.</string>
+    <string name="basal_management">¿Cuáles son los tratamientos para el carcinoma de células basales (BCC)?</string>
+    <string name="basal_manage">La elección del tratamiento depende de muchos factores, incluida la salud y la edad del paciente, la ubicación del tumor y la extensión y el tipo de cáncer. El tratamiento puede ocurrir de muchas maneras:</string>
+    <string name="basal_manage1">Rascar con una cureta, un instrumento que puede terminar en un anillo o una cuchara, y luego quemar con una aguja eléctrica especial. Este método se llama electrodesecación y curetaje.</string>
+    <string name="basal_manage2">"Cirugía de Mohs: esta es una técnica especializada. El médico primero extirpa el cáncer visible y luego comienza a cortar alrededor de los bordes".</string>
+    <string name="basal_manage3">Aplicación de medicamentos de quimioterapia en la piel</string>
+    <string name="basal_manage4">Uso de luz azul y un agente sensible a la luz aplicado a la piel (terapia fotodinámica o PDT)</string>
+    <string name="derma_Prevention">¿Cómo prevenir el dermatofibroma?</string>
+
+    <string name="derma_prevent1">Actualmente, los investigadores no saben exactamente por qué se producen los dermatofibromas en algunas personas.\n\nDebido a que se desconoce la causa, no existe una forma segura de prevenir el desarrollo de los dermatofibromas.</string>
+    <string name="derma_management">¿Cómo se trata el dermatofibroma?</string>
+    <string name="dermaa_management">Por lo general, los dermatofibromas son crónicos y no se resuelven espontáneamente por sí solos. Debido a que son inofensivos, el tratamiento suele ser únicamente por motivos estéticos.\n\nLas opciones de tratamiento para los dermatofibromas incluyen:</string>
+    <string name="dermaa_management1">congelación (con nitrógeno líquido)</string>
+    <string name="dermaa_management2">inyección de corticosteroides localizada</string>
+    <string name="dermaa_management3">terapia con láser</string>
+    <string name="dermaa_management4">afeitarse la parte superior para aplanar el crecimiento</string>
+    <string name="dermaa_management5">Es posible que estas terapias no sean completamente exitosas para eliminar un dermatofibroma porque el tejido puede volver a acumularse dentro de la lesión hasta que vuelva a su tamaño anterior a la terapia.</string>
+    <string name="dermaa_management6">Un dermatofibroma se puede extirpar por completo con una escisión quirúrgica amplia, pero también existe una alta probabilidad de formación de cicatrices que pueden considerarse más antiestéticas que el propio dermatofibroma.</string>
+    <string name="dermaa_management7"><u>Nunca intente eliminar un crecimiento en casa. Esto puede provocar infección, cicatrización y sangrado excesivo.</u></string>
+    <string name="melanoma_Prevention">¿Cómo prevenir el melanoma?</string>
+    <string name="melanoma_management">¿Cómo se trata el melanoma?</string>
+    <string name="melanoma_prevent1">Puede reducir su riesgo de melanoma y otros tipos de cáncer de piel si:</string>
+    <string name="mela_management">Si el melanoma se ha propagado más allá de la piel, las opciones de tratamiento pueden incluir:</string>
+    <string name="mela_management1"><b>Cirugía para extirpar los ganglios linfáticos afectados.</b> Si el melanoma se ha propagado a los ganglios linfáticos cercanos, su cirujano puede extirpar los ganglios afectados.</string>
+    <string name="mela_management2"><b>Inmunoterapia.</b> La inmunoterapia es un tratamiento farmacológico que ayuda a su sistema inmunitario a combatir el cáncer.</string>
+    <string name="mela_management3"><b>Terapia dirigida.</b> Los tratamientos farmacológicos dirigidos se centran en debilidades específicas presentes en las células cancerosas.</string>
+    <string name="mela_management4"><b>Radioterapia.</b> Este tratamiento utiliza haces de energía de alta potencia, como rayos X y protones, para destruir las células cancerosas.</string>
+    <string name="mela_management5"><b>Quimioterapia:</b> La quimioterapia usa medicamentos para destruir las células cancerosas. La quimioterapia se puede administrar por vía intravenosa, en forma de píldora o ambas para que viaje por todo el cuerpo.</string>
+    <string name="nevus_Prevention">¿Cómo prevenir Nevus?</string>
+    <string name="nevus_management">¿Cómo se trata Nevus?</string>
+
+    <string name="nevus_prevent1">Puede reducir su riesgo de nevus y otros tipos de cáncer de piel si:</string>
+    <string name="nevuss_management">Si el nevo se ha extendido más allá de la piel, las opciones de tratamiento pueden incluir:</string>
+    <string name="sebo_Prevention">¿Cómo prevenir la queratosis seborreica?</string>
+    <string name="sebo_prevent1">No hay manera de prevenir por completo el desarrollo de queratosis seborreica. Sin embargo, si sabe que está en riesgo o desarrolla estos crecimientos con frecuencia, trabajar con un dermatólogo significa que puede limitar el impacto que esta afección de la piel tiene en su vida.</string>
+    <string name="sebo_management">¿Cómo se trata la queratosis seborreica?</string>
+    <string name="seborr_management">Siempre debe tener nuevos crecimientos de piel diagnosticados clínicamente para asegurarse de que no sean cancerosos. Los diferentes tipos de crecimientos de la piel pueden ser difíciles de diferenciar entre sí. Si su proveedor de atención médica tiene alguna duda sobre su crecimiento, es posible que desee extirparlo para realizar una biopsia.</string>
+    <string name="seborr_management1">Si es claramente una queratosis seborreica, no requerirá ningún tratamiento. Pero es posible que desee que se lo eliminen si le pica o le irrita, o si no le gusta cómo se ve. Su proveedor de atención médica puede quitárselo en el consultorio utilizando uno de varios métodos comunes.</string>
+    <string name="pigmented_Prevention">¿Cómo prevenir la queratosis benigna pigmentada?</string>
+    <string name="pigmented_prevent1">No hay forma de prevenir por completo el desarrollo de la queratosis benigna pigmentada. Sin embargo, si sabe que está en riesgo o desarrolla estos crecimientos con frecuencia, trabajar con un dermatólogo significa que puede limitar el impacto que esta afección de la piel tiene en su vida.</string>
+    <string name="pigmented_management">¿Cómo se trata la queratosis benigna pigmentada?</string>
+    <string name="pigmented_management1">Si es claramente una queratosis benigna pigmentada, no requerirá ningún tratamiento. Pero es posible que desee que se lo eliminen si le pica o le irrita, o si no le gusta cómo se ve. Su proveedor de atención médica puede quitárselo en el consultorio utilizando uno de varios métodos comunes.</string>
+    <string name="squa_Prevention">¿Cómo prevenir el carcinoma de células escamosas?</string>
+    <string name="squa_management">¿Cómo se trata el carcinoma de células escamosas?</string>
+
+    <string name="squaa_management"><b><u>Tratamientos para cánceres de piel muy pequeños</u></b>\n\nSi su cáncer de piel es muy pequeño y tiene un bajo riesgo de propagarse, podría considerar menos tratamientos invasivos, incluyendo:</string>
+    <string name="squaa_management1"><b>Legrado y electrodesecación (C y E).</b> El tratamiento C y E consiste en extirpar la superficie del cáncer de piel con un instrumento raspador (cureta) y luego quemar la base de la cáncer con una aguja eléctrica.</string>
+    <string name="squaa_management2"><b>Terapia con láser.</b> Un intenso haz de luz vaporiza los crecimientos, generalmente con poco daño al tejido circundante y con un riesgo reducido de sangrado, hinchazón y cicatrización.</string>
+    <string name="squaa_management3"><b>Congelación.</b> Este tratamiento consiste en congelar las células cancerosas con nitrógeno líquido (criocirugía). Puede ser una opción para el tratamiento de lesiones cutáneas superficiales.</string>
+    <string name="squaa_management4"><b>Terapia fotodinámica.</b> La terapia fotodinámica combina medicamentos fotosensibilizadores y luz para tratar los cánceres de piel superficiales. Durante la terapia fotodinámica, se aplica a la piel un fármaco líquido que hace que las células cancerosas sean sensibles a la luz. Más tarde, una luz que destruye las células cancerosas de la piel brilla en el área.</string>
+    <string name="squaam_management"><b><u>Tratamientos para cánceres de piel más grandes</u></b>\n\nSe pueden recomendar tratamientos más invasivos para carcinomas de células escamosas más grandes y aquellos que se extienden más profundamente en la piel. Las opciones pueden incluir:</string>
+    <string name="squaam_management1"><b>Escisión simple.</b> En este procedimiento, su médico corta el tejido canceroso y un margen circundante de piel sana.</string>
+    <string name="squaam_management2"><b>Cirugía de Mohs.</b> Durante la cirugía de Mohs, su médico extrae el cáncer capa por capa, examinando cada capa bajo el microscopio hasta que no quedan células anormales.</string>
+    <string name="squaam_management3"><b>Radioterapia.</b> La radioterapia utiliza haces de alta energía, como rayos X y protones, para destruir las células cancerosas.</string>
+    <string name="squaamo_management"><b><u>Tratamientos para el cáncer de piel que se propaga más allá de la piel</u></b>\n\nCuando el carcinoma de células escamosas se propaga a otras partes del cuerpo, los tratamientos farmacológicos pueden ser recomendado, incluyendo:</string>
+    <string name="squaamo_management1"><b>Quimioterapia.</b> La quimioterapia utiliza fármacos potentes para destruir las células cancerosas. Si el carcinoma de células escamosas se disemina a los ganglios linfáticos u otras partes del cuerpo, la quimioterapia se puede usar sola o en combinación con otros tratamientos, como la terapia con medicamentos dirigidos y la radioterapia.</string>
+    <string name="squaamo_management2"><b>Terapia con medicamentos dirigidos.</b> Los tratamientos con medicamentos dirigidos se enfocan en debilidades específicas presentes dentro de las células cancerosas.</string>
+    <string name="squaamo_management3"><b>Inmunoterapia.</b> La inmunoterapia es un tratamiento farmacológico que ayuda al sistema inmunitario a combatir el cáncer. Es posible que el sistema inmunitario que combate las enfermedades de su cuerpo no ataque el cáncer porque las células cancerosas producen proteínas que ciegan las células del sistema inmunitario.</string>
+    <string name="vascular_management">¿Cómo se trata la lesión vascular?</string>
+
+    <string name="vas_management">Existen diferentes tipos de tratamiento para los tumores vasculares infantiles.</string>
+    <string name="vas_management1">Los niños con tumores vasculares infantiles deben tener su tratamiento planificado por un equipo de proveedores de atención médica que sean expertos en el tratamiento del cáncer en niños.</string>
+    <string name="vas_management2">Se utilizan doce tipos de tratamiento estándar:\n - Terapia con betabloqueantes\n - Cirugía\n - Fotocoagulación\n - Crioterapia\n - Embolización\n - Quimioterapia\n - Escleroterapia\n - Radioterapia\n - Terapia dirigida\n - Inmunoterapia\n - Otra terapia con medicamentos</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="skin_cancer_ndetection">Detección de \ncáncer de piel</string>
+    <string name="covid_disease_ndetection">Detección de enfermedad de Covid</string>
+    <string name="lung_cancer_ndetection">Detección de \ncáncer de pulmón</string>
+    <string name="upcoming_model">Próximo modelo</string>
+    <string name="choose_language">Elegir idioma..</string>
+    <string name="basal_metabolic_rate">Tasa metabólica basal</string>
+    <string name="body_mass_index">Índice de masa corporal</string>
+    <string name="blood_pressure">Presión Arterial</string>
+    <string name="blood_volume">Volumen de Sangre</string>
+    <string name="body_fat">Grasa Corporal</string>
+    <string name="calorie_burn">Quema de calorías</string>
+    <string name="calorie_intake">Ingesta de calorías</string>
+    <string name="water_intake">Toma de agua</string>
+    <string name="cholesterol_ratio">Proporción de colesterol</string>
+    <string name="logout">Cerrar sesión</string>
+
+
+    <string name="key">AIzaSyBHnWBfNRBOJAEsoofmgLTuoJTfAR5MFfM</string>
+    <string name="medi_consult">consulta médica</string>
+    <string name="disease_checker">Comprobador de enfermedades</string>
+    <string name="disease_checker_tagline">Abogadas hospitales cerca de usted</string>
+    <string name="nearby_location_tagline">Encuentre hospitales cerca de usted</string>
+    <string name="nearbyHospitals">Hospitales Cercanos</string>
+    <string name="sos_tagline">Llamada SOS para un ser querido</string>
+    <string name="sos_textline">Llamada SOS de emergencia</string>
+
+    <string name="please_fill_the_form_before_check_the_disease">Complete el formulario antes de verificar la enfermedad</string>
+    <string name="enter_name">Ingrese su nombre</string>
+    <string name="enter_age">Ingrese su edad</string>
+    <string name="enter_your_symptoms">¡Seleccione sus síntomas!</string>
+    <string name="know_your_disease">CONOCE TU ENFERMEDAD</string>
+    <string name="mr_xyz_you_may_have">Sr. XYZ puede que tengas...</string>
+    <string name="for_more_information_click_here">Para obtener más información, haga clic AQUÍ</string>
+    <string name="you_may_have">" puedes tener..."</string>
+    <string name="emergency_call">Llamada de emergencia</string>
+    <string name="enter_a_valid_number">Ingrese un número válido</string>
+    <string name="emergency_call_only"><u>Solo llamada de emergencia</u></string>
+
+
+    <string name="covid19_tracker">Rastreador de Covid 19</string>
+    <string name="total_cases">Casos Totales</string>
+    <string name="recovered">Recuperado</string>
+    <string name="deaths">Muertes</string>
+    <string name="active">Activo</string>
+    <string name="global_statistics">estadísticas globales</string>
+    <string name="cases">Casos</string>
+    <string name="_0">0</string>
+    <string name="critical">Crítico</string>
+    <string name="today_cases">Casos de hoy</string>
+    <string name="total_deaths">Total de muertes</string>
+    <string name="affected_countries">Países afectados</string>
+    <string name="track_countries">Rastrear países</string>
+    <string name="search_country">Buscar país</string>
+    <string name="country_name">Nombre del país</string>
+    <string name="country">País</string>
+
+    <string name="prompt_email">Ingresar ID de correo electrónico</string>
+    <string name="prompt_password">Introducir contraseña</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="signup">Registrarse</string>
+    <string name="displayName">John Von</string>
+    <string name="breast_cancer_detection">Detección de cáncer de mama</string>
+    <string name="heart_attack_prediction">Predicción de infarto</string>
+    <string name="tomography">> Tomografía</string>
+    <string name="mammography"><![CDATA[> Mamografía]]></string>
+    <string name="traditional"><![CDATA[> Tradicional]]></string>
+    <string name="dermoscopy"><![CDATA[> Dermatoscopia]]></string>
+    <string name="disease">Enfermedad</string>
+    <string name="detection">Detección</string>
+    <string name="health">Salud</string>
+    <string name="calculator">Calculadora</string>
+    <string name="medi">Medi</string>
+    <string name="consult">Consultar</string>
+
+
+
+    <string name="traditional_method">Método tradicional</string>
+    <string name="mammography_method">Método de mamografía</string>
+    <string name="tradition_tv">Aquí debe completar algunos detalles, de acuerdo con los datos que ingrese, se mostrará su resultado.</string>
+    <string name="memo_tv">Aquí debes subir tu mamografía escaneada para detectar la enfermedad</string>
+    <string name="breast_cancer_predictor">Predictor de cáncer de mama</string>
+    <string name="fill_form">Rellene el siguiente formulario para detectar el cáncer de mama:</string>
+    <string name="fill_form2">Complete los detalles a continuación para predecir un ataque al corazón</string>
+    <string name="predict">Predecir</string>
+    <string name="breast_text">Seleccione la mamografía de la galería para detectar el cáncer</string>
+    <string name="prediction_hint2">El resultado de la predicción del cáncer de mama se mostrará aquí</string>
+    <string name="Prevention2">¿Cómo prevenir el cáncer de mama?</string>
+    <string name="b_prevent1">La investigación muestra que los cambios en el estilo de vida pueden disminuir el riesgo de cáncer de mama, incluso en mujeres con alto riesgo. Para reducir su riesgo:</string>
+    <string name="b_prevent2">Limite el alcohol. Cuanto más alcohol beba, mayor será su riesgo de desarrollar cáncer de mama. La recomendación general, basada en la investigación sobre el efecto del alcohol en el riesgo de cáncer de mama, es limitarse a no más de una bebida al día, ya que incluso pequeñas cantidades aumentan el riesgo</string>
+    <string name="b_prevent3">Mantenga un peso saludable. Si su peso es saludable, trabaje para mantener ese peso. Si necesita perder peso, pregúntele a su médico acerca de estrategias saludables para lograrlo. Reduzca la cantidad de calorías que come cada día y aumente lentamente la cantidad de ejercicio.</string>
+    <string name="b_prevent4">Manténgase físicamente activo. La actividad física puede ayudarla a mantener un peso saludable, lo que ayuda a prevenir el cáncer de mama. La mayoría de los adultos sanos deben aspirar a realizar al menos 150 minutos a la semana de actividad aeróbica moderada o 75 minutos de actividad aeróbica vigorosa a la semana, además de entrenamiento de fuerza al menos dos veces a la semana</string>
+    <string name="b_prevent5">Amamantar. La lactancia materna podría desempeñar un papel en la prevención del cáncer de mama. Cuanto más tiempo amamante, mayor será el efecto protector</string>
+    <string name="b_prevent6">Limitar la terapia hormonal posmenopáusica. La terapia hormonal combinada puede aumentar el riesgo de cáncer de mama. Hable con su médico sobre los riesgos y beneficios de la terapia hormonal. Es posible que pueda controlar sus síntomas con terapias y medicamentos no hormonales. Si decide que los beneficios de la terapia hormonal a corto plazo superan los riesgos, use la dosis más baja que funcione para usted y continúe haciendo que su médico controle la cantidad de tiempo que está tomando hormonas</string>
+
+
+
+
+    <string-array name="symptom_list">
+        <item>SELECCIONE SÍNTOMA</item>
+        <item>Ansiedad</item>
+        <item>Dolor de estómago</item>
+        <item>Náuseas</item>
+        <item>Vómitos</item>
+        <item>Fiebre</item>
+        <item>Pérdida de peso repentina</item>
+        <item>Sudando</item>
+        <item>Dolor muscular y corporal</item>
+        <item>Sediento que de costumbre</item>
+        <item>Dolor de cabeza</item>
+        <item>Debilidad/Fatiga</item>
+        <item>Dolor abdominal</item>
+        <item>Dolor muscular</item>
+        <item>Tos Seca</item>
+        <item>Diarrea/Estreñimiento</item>
+        <item>Micción frecuente</item>
+        <item>Hambre</item>
+        <item>Visión borrosa</item>
+        <item>Picazón en la piel</item>
+        <item>Dolor en el pecho</item>
+        <item>Falta de aliento</item>
+        <item>Mareos</item>
+        <item>Latido cardíaco acelerado</item>
+        <item>Indigestión</item>
+        <item>Presión o pesadez en el pecho</item>
+
+    </string-array>
+</resources>

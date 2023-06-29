@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_main"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_rectengle"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".calculator.BMR.BMR_Result">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/iv_imoji"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/imoji_default" />
+
+    <TextView
+        android:id="@+id/tv_ans_bmr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/productsans_regular"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

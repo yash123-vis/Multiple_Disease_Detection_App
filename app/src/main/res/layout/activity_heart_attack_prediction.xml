@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".HeartAttackPredictionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heart_attack_prediction"
+            android:fontFamily="@font/productsans_bold"
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.03"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_form2"
+            android:textSize="16sp"
+            android:textColor="@color/black4"
+            android:letterSpacing="0.04"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Ejection Fraction (eg. 25, 30, 60, etc.)"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Platelets (eg. 351000.00, 176000.00, etc.)"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Serum Creatinine (eg. 0.80, 1.50, 2.70, etc.)"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Time (eg. 8, 45, 205, etc)"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_login_ripple"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:letterSpacing="0.2"
+            android:textSize="17sp"
+            android:text="@string/predict"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/blue_background"
+            android:padding="8dp"
+            android:textSize="21sp"
+            android:alpha="0"
+            android:fontFamily="@font/productsans_bold"
+            android:letterSpacing="0.04"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

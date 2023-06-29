@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".BreastCancerActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/breast_cancer_predictor"
+            android:fontFamily="@font/productsans_bold"
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:letterSpacing="0.03"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_form"
+            android:textSize="16sp"
+            android:textColor="@color/black4"
+            android:letterSpacing="0.04"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="Radius Mean (eg. 14.02,11.13, etc)"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:inputType="numberDecimal"
+            android:drawableStart="@drawable/edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:hint="Texture Mean (eg. 20.35, 16.32, etc)"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:hint="Perimeter Mean (eg. 91.34, 127.35, etc.)"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:hint="Area Mean (eg. 500.23, 2010.21, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:hint="Smoothness Mean (eg. 0.08151, 0.12270, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Compactness Mean (eg. 0.11260, 0.11470, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Concavity Mean (eg. 0.111400, 0.099660, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Concave Points Mean (eg. 0.043040, 0.026420, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Symmetry Mean (eg. 0.1537, 0.2251, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/edit"
+            android:ems="10"
+            android:hint="Fractal Dimension Mean (eg. 0.06171, 0.07421, etc)"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/predict"
+            android:background="@drawable/button_login_ripple"
+            android:textColor="@color/white"
+            android:fontFamily="@font/productsans_regular"
+            android:textSize="17sp"
+            android:letterSpacing="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:alpha="0"
+            android:background="@drawable/blue_background"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/productsans_bold"
+            android:letterSpacing="0.03"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

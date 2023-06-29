@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/loginLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="378dp"
+                android:layout_height="249dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/forgotpassword">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+
+
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/productsans_bold"
+                android:gravity="center"
+                android:text="Forgot Password"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Please enter your Email"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:textColor="#004D40"
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="12dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_round_email_24" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:background="#004D40"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp">
+
+                    <EditText
+                        android:id="@+id/forgetemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/white"
+
+                        android:fontFamily="@font/productsans_bold"
+                        android:hint="@string/prompt_email"
+                        android:importantForAutofill="no"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@android:color/darker_gray"/>
+
+
+
+            <ProgressBar
+                android:id="@+id/regProgressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/green_circle_bg"
+                android:indeterminateTint="@color/white"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_forgot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/button_login_ripple"
+                android:text="Forgot Password"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/productsans_regular" />
+
+            <TextView
+                android:id="@+id/backtologin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Back To Login"
+                android:textStyle="bold"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp"
+                android:gravity="end" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

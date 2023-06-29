@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108419786680",
+    "firebase_url": "https://multiple-disease-app-default-rtdb.firebaseio.com",
+    "project_id": "multiple-disease-app",
+    "storage_bucket": "multiple-disease-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108419786680:android:08617f4066fd2a2de4114d",
+        "android_client_info": {
+          "package_name": "com.example.hdp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108419786680-4u346lptms44h9b98s66srtur3f4hu32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hdp",
+            "certificate_hash": "70ad963d588c022f07f38c7c3ce68e7954892156"
+          }
+        },
+        {
+          "client_id": "108419786680-4egkt98ph96ggk147q41cjv4ikm10gfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Jwflq7TcR6tk2-1_TRZ6HQl99oiPwzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108419786680-4egkt98ph96ggk147q41cjv4ikm10gfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

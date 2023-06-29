@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".TreatmentActivity"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/link2"
+            android:textColor="@color/black2"
+            android:textAlignment="textEnd"
+            android:fontFamily="@font/productsans_regular"
+            android:textStyle="italic"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brain1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="6dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brain2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="3dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surgery"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/productsans_bold"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surgery1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="8dp"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/brain_surgery"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brain_surgery_image_source"
+            android:textColor="@color/white"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:letterSpacing="0.06"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surgery2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surgery3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surgery2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:fontFamily="@font/productsans_bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation4"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/gamma_knife_machine"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiation_image_source"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:letterSpacing="0.06"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chemotherapy"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:fontFamily="@font/productsans_bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chemotherapy1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/chemo_image"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown"
+            android:textColor="@color/white"
+            android:fontFamily="@font/productsans_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:letterSpacing="0.06"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chemotherapy2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chemotherapy3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/productsans_regular"
+            android:justificationMode="inter_word"
+            tools:targetApi="o"/>
+
+    </LinearLayout>
+
+</ScrollView>
